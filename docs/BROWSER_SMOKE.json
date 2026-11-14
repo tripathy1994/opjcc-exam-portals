@@ -1,0 +1,16 @@
+[
+  {
+    "role": "teacher",
+    "status": 200,
+    "errors": [],
+    "statusText": "Isolated local environment — production data, AI requests and result sync disabled.",
+    "visible": true
+  },
+  {
+    "role": "student",
+    "status": 200,
+    "errors": [],
+    "statusText": "Isolated local environment — production data, AI requests and result sync disabled.",
+    "visible": true
+  }
+]

@@ -1,0 +1,17 @@
+.local/
+node_modules/
+.wrangler/
+backups/
+*.log
+*.env
+.dev.vars
+config/account-approval.local.json
+wrangler.verified.local.json
+*.sqlite*
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+DELIVERY_RECORD.json
+inspect.mjs

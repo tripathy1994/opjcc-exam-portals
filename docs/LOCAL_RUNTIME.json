@@ -1,0 +1,22 @@
+{
+  "visionWorker": {
+    "pass": true,
+    "faces": 0,
+    "closed": true,
+    "hardware": "desktop Chrome synthetic blank canvas, not camera or Android"
+  },
+  "offline": {
+    "pending": 1,
+    "answers": {
+      "q1": "Ohm"
+    },
+    "serverConfirmed": false,
+    "recovered": {
+      "pending": 0,
+      "answer": "Ohm",
+      "submitted": true
+    }
+  },
+  "physicalAndroid": "PENDING",
+  "cameraMicrophoneHardware": "NOT TESTED"
+}

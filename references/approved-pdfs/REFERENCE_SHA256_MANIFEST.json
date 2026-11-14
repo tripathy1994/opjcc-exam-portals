@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01_COMBINED_RESULT_SHEET_LOCKED_A4_LANDSCAPE.pdf",
+    "original_path": "/mnt/data/OPJCC_20_Students_Result_Sheet_Full_Demo.pdf",
+    "sha256": "954ba57b2c93f37c3f24831126657e2460c8c0d64b1d1c4e5130cfef9e35bf20",
+    "pages": 2,
+    "size_pt": [
+      841.89,
+      595.28
+    ]
+  },
+  {
+    "file": "02_QUESTION_APPROVAL_JF_LOCKED_A4_PORTRAIT.pdf",
+    "original_path": "/mnt/data/OPJCC_30Q_STRICT_LOCKED_TEST/OPJCC_30Q_Mixed_JF_APPROVAL_EXACT_LOCKED_LAYOUT.pdf",
+    "sha256": "c6c8fc8459deecd88d2f17d0522bae3a4d143842bb3164cfbf11b25777235d8f",
+    "pages": 4,
+    "size_pt": [
+      595.28,
+      841.89
+    ]
+  },
+  {
+    "file": "03_QUESTION_APPROVAL_NTPC_LOCKED_A4_PORTRAIT.pdf",
+    "original_path": "/mnt/data/OPJCC_30Q_STRICT_LOCKED_TEST/OPJCC_30Q_Mixed_NTPC_APPROVAL_EXACT_LOCKED_LAYOUT.pdf",
+    "sha256": "84069bb063273bae4b850f3444a195131a4aba4e6bbee49d8d54866d5db67288",
+    "pages": 4,
+    "size_pt": [
+      595.28,
+      841.89
+    ]
+  },
+  {
+    "file": "04_INDIVIDUAL_ANSWER_SHEET_LOCKED_A4_PORTRAIT.pdf",
+    "original_path": "/mnt/data/OPJCC_30Q_STRICT_LOCKED_TEST/OPJCC_30Q_Mixed_Individual_EXACT_LOCKED_LAYOUT.pdf",
+    "sha256": "12639646f071c8b692c091dd2eaaa9d461f113f81b79b03e665cd512f797552f",
+    "pages": 4,
+    "size_pt": [
+      595.28,
+      841.89
+    ]
+  }
+]

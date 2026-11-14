@@ -1,0 +1,212 @@
+{
+  "syntax": [
+    {
+      "file": "backend/app-gateway.js",
+      "pass": true
+    },
+    {
+      "file": "backend/auth.js",
+      "pass": true
+    },
+    {
+      "file": "backend/master-sync.js",
+      "pass": true
+    },
+    {
+      "file": "backend/projection.js",
+      "pass": true
+    },
+    {
+      "file": "backend/worker.js",
+      "pass": true
+    },
+    {
+      "file": "inspect.mjs",
+      "pass": true
+    },
+    {
+      "file": "packages/answer-contract.js",
+      "pass": true
+    },
+    {
+      "file": "public/shared/firebase-auth-adapter.js",
+      "pass": true
+    },
+    {
+      "file": "public/shared/session.js",
+      "pass": true
+    },
+    {
+      "file": "public/shared/store.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-android-runtime.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-android-vision-worker.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-answer-sheet-frame.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-answer-sheet.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-answer-store.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-authoring.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-diagram.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-language.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-reports.js",
+      "pass": true
+    },
+    {
+      "file": "public/student/exam-runtime.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-answer-store.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-authoring.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-diagram.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-question-bank.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-recovery.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-reports.js",
+      "pass": true
+    },
+    {
+      "file": "public/teacher/exam-runtime.js",
+      "pass": true
+    },
+    {
+      "file": "references/protected-ai-request.reference.js",
+      "pass": true
+    },
+    {
+      "file": "scripts/extract.mjs",
+      "pass": true
+    },
+    {
+      "file": "scripts/make-portable.mjs",
+      "pass": true
+    },
+    {
+      "file": "scripts/unresolved.mjs",
+      "pass": true
+    },
+    {
+      "file": "scripts/verify.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/browser-smoke.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/core.test.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/local-runtime.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/pdf-import.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/pdf-render.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/ui-workflow.mjs",
+      "pass": true
+    },
+    {
+      "file": "tools/analyze-source.mjs",
+      "pass": true
+    },
+    {
+      "file": "tools/browser.mjs",
+      "pass": true
+    },
+    {
+      "file": "tools/fixtures.mjs",
+      "pass": true
+    },
+    {
+      "file": "tools/local-server.mjs",
+      "pass": true
+    },
+    {
+      "file": "tools/sqlite-d1.mjs",
+      "pass": true
+    }
+  ],
+  "copiedAssets": {
+    "matched": 66,
+    "failed": []
+  },
+  "lockedManifest": {
+    "matched": 78,
+    "failed": []
+  },
+  "approvedPDFs": [
+    {
+      "name": "01_COMBINED_RESULT_SHEET_LOCKED_A4_LANDSCAPE.pdf",
+      "sha256": "954BA57B2C93F37C3F24831126657E2460C8C0D64B1D1C4E5130CFEF9E35BF20",
+      "match": true
+    },
+    {
+      "name": "02_QUESTION_APPROVAL_JF_LOCKED_A4_PORTRAIT.pdf",
+      "sha256": "C6C8FC8459DEECD88D2F17D0522BAE3A4D143842BB3164CFBF11B25777235D8F",
+      "match": true
+    },
+    {
+      "name": "03_QUESTION_APPROVAL_NTPC_LOCKED_A4_PORTRAIT.pdf",
+      "sha256": "84069BB063273BAE4B850F3444A195131A4ABA4E6BBEE49D8D54866D5DB67288",
+      "match": true
+    },
+    {
+      "name": "04_INDIVIDUAL_ANSWER_SHEET_LOCKED_A4_PORTRAIT.pdf",
+      "sha256": "12639646F071C8B692C091DD2EAAA9D461F113F81B79B03E665CD512F797552F",
+      "match": true
+    }
+  ],
+  "secretScan": {
+    "findings": [],
+    "scope": "project source, excludes vendor binaries, .git, .local and backups; heuristic scan, not a guarantee"
+  },
+  "productionChanges": "No production write/deployment tooling executed in this task",
+  "pass": true
+}

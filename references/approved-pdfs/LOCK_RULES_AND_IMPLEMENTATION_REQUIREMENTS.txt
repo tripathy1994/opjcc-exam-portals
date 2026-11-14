@@ -1,0 +1,35 @@
+OPJCC TEACHER PORTAL - APPROVED PDF / LIVE EXAM LOCK RECORD
+Status: USER-APPROVED REFERENCE BASELINE, 27 October 2026
+No live portal code, backend, D1/Firestore data, or production deployments are changed by this archive.
+
+CRITICAL IMMUTABILITY RULE:
+DO NOT modify, redesign, move, scale, resize, reorder, re-space, or substitute any approved layout element WITHOUT EXPLICIT USER PERMISSION. No proactive improvements. This includes PDF generation code, web download outputs, fonts, logos, headers, tables, signature lines, footers, QR placement, margins, sizing, page breaks, and page orientation. Compare visual renders against these exact original reference PDF assets. Dynamic content naturally varies (names, question text, row counts) but template elements remain invariant. If an unavoidable pagination/overflow conflict appears, stop and ask for approval, do not silently redesign. Existing unrelated portal PDF generators are out of scope.
+
+THREE LOCKED PDF FORMATS (FOUR REFERENCE PDF FILES):
+1) COMBINED RESULT SHEET: A4 Landscape; original OPJCC logo; project-specific real batch ID (JF / NTPC), Trainee ID rather than roll number, selfie per student, name and father's name centered, marks/percentage/grade/result aligned center, blank student signature per row; QR + unique Report ID + page number on each page; teacher signature bottom-left and Admin / Training Head signature bottom-right ONLY on final page; no unnecessary blank space, broken rows, extra blank pages or cropped photos. Student data in reference PDF are examples, not production facts.
+2) PRE-EXAM QUESTION PAPER APPROVAL: A4 Portrait, approved reference layout; NOS Code, Section, ONLY Teacher-entered Topic (no added NOS Title on individual version; preserve approved question approval reference separately), correct project/batch ID, Teacher Signature LEFT and Admin / Training Head Signature RIGHT only on last page, proper gap after final question, QR/Paper ID/page numbering in approved positions. Question order Q1..Qn and marks. Approved JF/NTPC examples are separate ref files.
+3) INDIVIDUAL STUDENT ANSWER SHEET: A4 Portrait, approved compact 4-page 30-question exemplar with upper-right authentic selfie, NOS Code / Section / Teacher-entered Topic in approved positions (no NOS Title), project and real batch ID, Trainee ID, question order as actually served to student, actual selected or typed responses, verified marks/passing percentage/grade, per-page ID/QR/footer, Student Signature and Teacher Signature on last page only. Do not print invented signatures or substitute sample photos for real students in live output.
+
+EXACT CONTENT-CHANGE PERMISSION FOR DEMO:
+The 30-question test mixture is 20 MCQ + 5 True/False + 5 Fill-in-the-Blanks. These question types and their text/answers can change; NOT the locked layouts. Do not silently introduce new titles, columns, watermarks, changed colored headings, extra boxes, or moved signature blocks.
+
+LIVE EXAM REQUIREMENTS FOR FUTURE CODEX IMPLEMENTATION (NOT YET IMPLEMENTED/VERIFIED):
+- About 50 simultaneous classroom students; each receives the same teacher-approved question set, but an independently randomized question sequence, with original question IDs/answer keys retained, and actual served order saved per attempt. Do not reuse other student's saved sequence.
+- Real selfie capture before exam starts; preserve exact captured photo securely and link it to the result and individual answer sheet.
+- Question bank PDF/DOCX/XLSX/TXT or study-material upload as permitted, source extraction vs AI generation as separate modes; configurable counts, marks and types; AI checks first, Teacher reviews/edits and explicitly approves before publication. Do not auto-publish or silently invent missing answers.
+- Student chooses exam language before start (initially English/Hindi/Odia); preserve chosen language, submitted answers, translated questions and language-matched result/PDF; technical answer keys must not shift with translation. Answer evaluation for MCQ and True/False automatic with approved key; Fill-in-the-Blanks accept only verified answers/teacher-approved alternatives; ambiguous responses to teacher review; subjective grades require teacher review.
+- QR / ID verification is a planned feature requiring real secure backend, private record archiving, access control and validated signatures/hashes. QR appearing on a DEMO PDF is NOT a functioning verification record. Live verification page must not expose confidential selfie/answers publicly.
+- No edits to login, attendance, holidays, student management, Firebase, Workers/D1, approved logo, or other non-exam modules. No production change without explicit user authorization. Test via preview first and distinguish demo tests from real device/concurrent backend tests.
+
+GUARDRAIL BEFORE TOMORROW'S WORK:
+1. Open current Teacher/Student Portal code read-only. Back up originals.
+2. Before writing, load exact locked PDFs in this archive. Do not use generated mockups or later modified copies instead.
+3. List EXACT approved changes, affected source files and all unapproved-impact risks.
+4. For each changed PDF generator, compare source/template AND render across multi-page varying contents and 50-student stress conditions. Preserve all approved fixed layout elements pixel-for-pixel where equivalent content is rendered.
+5. Fail-and-stop if mismatch; do not push to live. Present tests/results and get separate approval.
+
+PDF FILE HASHES: SHA256 (changes indicate altered file bytes, although dynamically generated final PDFs will by necessity have different bytes):
+01_COMBINED_RESULT_SHEET_LOCKED_A4_LANDSCAPE.pdf | pages=2 | size_pt=[841.89, 595.28] | SHA256=954ba57b2c93f37c3f24831126657e2460c8c0d64b1d1c4e5130cfef9e35bf20
+02_QUESTION_APPROVAL_JF_LOCKED_A4_PORTRAIT.pdf | pages=4 | size_pt=[595.28, 841.89] | SHA256=c6c8fc8459deecd88d2f17d0522bae3a4d143842bb3164cfbf11b25777235d8f
+03_QUESTION_APPROVAL_NTPC_LOCKED_A4_PORTRAIT.pdf | pages=4 | size_pt=[595.28, 841.89] | SHA256=84069bb063273bae4b850f3444a195131a4aba4e6bbee49d8d54866d5db67288
+04_INDIVIDUAL_ANSWER_SHEET_LOCKED_A4_PORTRAIT.pdf | pages=4 | size_pt=[595.28, 841.89] | SHA256=12639646f071c8b692c091dd2eaaa9d461f113f81b79b03e665cd512f797552f

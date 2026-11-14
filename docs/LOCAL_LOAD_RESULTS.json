@@ -1,0 +1,16 @@
+{
+  "environment": "Node SQLite D1-compatible adapter, local CPU; not Cloudflare load",
+  "batch30plus20": {
+    "starts": 50,
+    "saves": 200,
+    "submissions": 50,
+    "durationMs": 329
+  },
+  "stress50": {
+    "starts": 50,
+    "saves": 50,
+    "submissions": 50
+  },
+  "totalDurationMs": 458,
+  "cloudflareUsage": "not measured — no account access"
+}

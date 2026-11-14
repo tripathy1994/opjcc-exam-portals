@@ -1,0 +1,5 @@
+// Immutable request contract reference only. NOT imported/executed.
+async function txAIRequest(config){
+ if(TX_AI_BUSY)throw Error('An AI request is already in progress.');TX_AI_BUSY=true;const controller=new AbortController();TX_AI_ABORT=controller;const timer=setTimeout(()=>controller.abort(),90000);for(const id of ['txAIGenerate','txTranslate'])$(id).disabled=true;
+ try{const token=await me.getIdToken(),r=await fetch('https://opjcc-ai-assistant.himansutripathy360.workers.dev/ai',{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${token}`},body:JSON.stringify({mode:'classroomQuestions',config}),signal:controller.signal});const d=await r.json();if(!r.ok)throw Error(r.status===429?'Free Worker limit reached; no paid fallback is used.':(d.error||'AI request failed')+' (HTTP '+r.status+')');if(!Array.isArray(d.questions))throw Error('AI response has no readable question list.');return d.questions;}finally{clearTimeout(timer);TX_AI_BUSY=false;TX_AI_ABORT=null;for(const id of ['txAIGenerate','txTranslate'])if($(id))$(id).disabled=false;}
+}

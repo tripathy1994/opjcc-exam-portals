@@ -1,0 +1,32 @@
+✔ locked bank 30 and 50 counts, all four types and languages (2.4435ms)
+✔ locked select 30 from 50, edit/delete/reorder and duplicates (0.6248ms)
+✔ locked 30 marks configuration: 20 MCQ x1 + 5 Fill x2 (0.1765ms)
+✔ published paper and private key isolation (23.1908ms)
+✔ admission, immutable order/deadline and duplicate attempt denial (11.3375ms)
+✔ ineligible and forged student attempts denied (16.9594ms)
+✔ initial answer plus 2 changes, fourth value rejected; canonical option enforced (18.186ms)
+✔ operation retry is idempotent in preserved answer contract (9.592ms)
+✔ CAS concurrent answer operations do not silently overwrite (9.4008ms)
+✔ submission is confirmed, answers remain locked, own result unpublished (9.6718ms)
+✔ Review V2 half marks, separate publication, PDF DTO and disabled outbox (16.7858ms)
+✔ stale review, quarter marks and forged publication rejected (10.6395ms)
+✔ Teacher hold/block/resume, student cannot unblock or clear warnings (11.4825ms)
+✔ projection fixture checksum, duplicate receipt and production destination gate (0.9825ms)
+✔ master minimization excludes Attendance and denies production source (2.192ms)
+✔ HTTP authentication/CORS and production mock-token rejection (31.2041ms)
+✔ 30+20 students and 50 concurrent synthetic start/save/submit (463.4121ms)
+✔ server blocks fifth camera warning and retains immutable command/warning history (12.3584ms)
+✔ deadline rejects new answers but permits locking previously confirmed answers (9.1284ms)
+✔ heartbeat coalescing reduces writes; changes and batch watches remain authorized (11.8436ms)
+✔ unpublication emits a disabled, versioned withdrawal event (12.2504ms)
+✔ valid signed Firebase-shaped JWT uses trusted role; bad signature/audience/expiry denied (62.086ms)
+✔ explicit Teacher reopen preserves answers and grants only one bounded deadline (9.6266ms)
+✔ original audited recovery contract atomically clears review, preserves deadline and answer limits (14.7821ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 919.1287

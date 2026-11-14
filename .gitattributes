@@ -1,0 +1,2 @@
+# Preserve the approved source/asset bytes across checkout; no CRLF conversion.
+* -text

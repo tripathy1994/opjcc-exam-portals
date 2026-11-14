@@ -1,0 +1,31 @@
+{
+  "teacherUI": {
+    "publishedExam": "ab00e2db-62a9-41f0-99be-dfbf014c80e8",
+    "questionCount": 1,
+    "dialogs": [
+      "Approve and publish exactly 1 selected questions from the 1-question bank? Every Student receives this same set.",
+      "Assessment published"
+    ],
+    "runtimeErrors": []
+  },
+  "answerStore": {
+    "serverConfirmed": true,
+    "answers": {
+      "q_1794680470054_3guaso": "Cutter"
+    }
+  },
+  "review": {
+    "privateSave": true,
+    "halfMark": 0.5,
+    "published": true
+  },
+  "ownPdf": {
+    "pass": true
+  },
+  "runtimeErrors": [],
+  "dialogs": [
+    "Approve and publish exactly 1 selected questions from the 1-question bank? Every Student receives this same set.",
+    "Assessment published",
+    "Teacher verification saved: 0.5/1. NOT published."
+  ]
+}

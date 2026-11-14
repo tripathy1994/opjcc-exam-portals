@@ -1,0 +1,1 @@
+{"name":"opjcc-exam-teacher","main":"../backend/app-gateway.js","compatibility_date":"2026-11-14","workers_dev":true,"assets":{"directory":"../public","binding":"ASSETS","run_worker_first":["/api/*","/"]},"services":[{"binding":"EXAM_API","service":"opjcc-exam-api"}],"vars":{"PORTAL_ROLE":"teacher"}}

@@ -1,0 +1,1006 @@
+{
+  "baseline": "E:/OPJCC_LOCKED_RECOVERY_20261114_005807",
+  "files": [
+    {
+      "role": "teacher",
+      "path": "campus-config.js",
+      "sha256": "33898B63257D4718D13217B5B3ECF97C3D8AFA72C6C689236EF01F8DA361D913"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-answer-store.js",
+      "sha256": "1DF60E00BBE1E5A7E9828C9BFCF9163223AD94A41A67D2D7D186F2B08D4232BD"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-authoring.js",
+      "sha256": "A475DD6789150E76E2033B3953E3FAEAE3DE1AE6F48909D0C561144828BE0E0C"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-diagram.js",
+      "sha256": "1BEBA009E2FBB4B32CFD93C549AC75A6B0AD54B040DC191BC3C1B4D79ECA1C15"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-question-bank.js",
+      "sha256": "5929A3F6760A3142C2BD6D7C760509F5662244525CB8B846C41A6CAA3BA41D86"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-recovery.js",
+      "sha256": "405EBD37BF919C1E27E72621D742CD4132F0A4FCB3215F517E7C25121219CB75"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-release.json",
+      "sha256": "57FACE11DE8DFB419F7A6362DC91DD5F42C23FD684E1395F1A59F3947DB15B83"
+    },
+    {
+      "role": "teacher",
+      "path": "exam-reports.js",
+      "sha256": "3764FDF9BF43D052096C248D6E24E26A51CA9B969149C2F4FEF8908A7EDE5AE0"
+    },
+    {
+      "role": "teacher",
+      "path": "favicon.ico",
+      "sha256": "6C3B3EBE5D607544097600DB686E88EFE84811F4EECBDE8CE5843F4C731594A7"
+    },
+    {
+      "role": "teacher",
+      "path": "index.html",
+      "sha256": "A3362F074FCBF042C89DB557E05E1010535A4914299BAAB56CAF521BE30D1814"
+    },
+    {
+      "role": "teacher",
+      "path": "manifest.webmanifest",
+      "sha256": "B7077B5C6834E580CCD5E36A15881FB0280ACD8C01BCC2D49DBEEEC6603C6518"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\DejaVuSans-Bold.ttf",
+      "sha256": "E6476C1B80502924294EED40894C5B18E06C181444CA953E5334262DF9C27724"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\DejaVuSans.ttf",
+      "sha256": "7DA195A74C55BEF988D0D48F9508BD5D849425C1770DBA5D7BFC6CE9ED848954"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\LiberationSans-Bold.ttf",
+      "sha256": "788ABEE4C806D660E8AEE46689DD8540CD4BB98DA03DCC9D171CE3EFD99A9173"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\LiberationSans-Regular.ttf",
+      "sha256": "76D04C18EA243F426B7DE1F3AD208E927008F961DC5945E5AAD352D0DFDE8EE8"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\LICENSE",
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\LICENSE-Liberation.txt",
+      "sha256": "93FED46019C38BBE566B479D22148E2E8A1E85ADA614ACCB0211C37B2C61C19B"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\NotoSansDevanagari-OFL.txt",
+      "sha256": "A216F6F8D85C7228093E0EE5E258D9D377E6671F68ACB4DB1930B29583D0F331"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\NotoSansDevanagari.ttf",
+      "sha256": "14EC4AF41F27482216D1C2229F417FF9B1425E1BABB014E57D1D40D03229853E"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\NotoSansOriya-OFL.txt",
+      "sha256": "C90FF15ADE263A49148E35AF34E9C177C6D56881E81260B29F10123E9E227ECA"
+    },
+    {
+      "role": "teacher",
+      "path": "fonts\\NotoSansOriya.ttf",
+      "sha256": "910342275D619081B896B4ED25FD9AD6FF320C25591B810DE1FCC4BEB153BA82"
+    },
+    {
+      "role": "teacher",
+      "path": "icons\\apple-touch-icon.png",
+      "sha256": "7A49FB121C96285A91A059A14C673B861D3ECBF7C93855B2E38246419B5EDC66"
+    },
+    {
+      "role": "teacher",
+      "path": "icons\\favicon-32.png",
+      "sha256": "43D112F347E4AD3D4071A997639604A487D136AF6FE9EC73677270F5DA5EED64"
+    },
+    {
+      "role": "teacher",
+      "path": "icons\\icon-192.png",
+      "sha256": "5E42B27EC9C8D333DBC1D68D62AF68E9E9EF6DC34F9826F6DCFF6F92E53AADF5"
+    },
+    {
+      "role": "teacher",
+      "path": "icons\\icon-512.png",
+      "sha256": "0307738E9A1F46C5037DD1854D685A3A183EF9D3245238FBFC65E9BDB95CDD34"
+    },
+    {
+      "role": "teacher",
+      "path": "icons\\icon-maskable-192.png",
+      "sha256": "BD8A208E2072C042346620B921BB37C345CD3B8ECC1E2340EDC8324565C51C0A"
+    },
+    {
+      "role": "teacher",
+      "path": "icons\\icon-maskable-512.png",
+      "sha256": "0A67A8059ECD2EA1F2C353C08742D219810CBE636993E4FA828CC4322274BE63"
+    },
+    {
+      "role": "teacher",
+      "path": "vendor\\pdf.mjs",
+      "sha256": "A209A2124BAA35CBB9015B809926F1BCEC9DD1C247296290E205DD9D76CB9128"
+    },
+    {
+      "role": "teacher",
+      "path": "vendor\\pdf.worker.mjs",
+      "sha256": "7C237F83FA56BCE645D8AF51D183C9C56BA7B2D2928FF42754DC7020BEA36323"
+    },
+    {
+      "role": "teacher",
+      "path": "vendor\\PDFJS-LICENSE",
+      "sha256": "0D542E0C8804E39AA7F37EB00DA5A762149DC682D7829451287E11B938E94594"
+    },
+    {
+      "role": "teacher",
+      "path": "vendor\\qr.js",
+      "sha256": "31D647A9D41AD154C88C8E5D01BF6102B70055D2189FCA4282F205C6C2E3E43A"
+    },
+    {
+      "role": "teacher",
+      "path": "vendor\\QRCODE-LICENSE",
+      "sha256": "8DF47C6AD9AC2C41EB9B2A72DEF9908959DA0EDE8DADD56C7B249C1BDB0C5CE6"
+    },
+    {
+      "role": "student",
+      "path": "campus-config.js",
+      "sha256": "33898B63257D4718D13217B5B3ECF97C3D8AFA72C6C689236EF01F8DA361D913"
+    },
+    {
+      "role": "student",
+      "path": "exam-android-runtime.js",
+      "sha256": "95A6A4388F232FEAF7AE517FE8B44E2DC280869163632A9ED822AF2F3DA54C3E"
+    },
+    {
+      "role": "student",
+      "path": "exam-android-vision-worker.js",
+      "sha256": "15D323046D8F73187A1476FABD8C5D98E22EF4B6650D5BF1844E0FE08C768CFF"
+    },
+    {
+      "role": "student",
+      "path": "exam-answer-sheet-frame.html",
+      "sha256": "80563F9DEE3A344B884F661FB782F664D3917E59A70902DD2E647D00F0C26DE9"
+    },
+    {
+      "role": "student",
+      "path": "exam-answer-sheet-frame.js",
+      "sha256": "8D7E7E543B5200B6738A4BD9434D79C8D09562E999C98BFB11DD61D64EA1A59D"
+    },
+    {
+      "role": "student",
+      "path": "exam-answer-sheet.js",
+      "sha256": "77BA41CD650BE0C163D7010BC3E4F30DF894BDF8EFD39D42052EAED4A75C786A"
+    },
+    {
+      "role": "student",
+      "path": "exam-answer-store.js",
+      "sha256": "1DF60E00BBE1E5A7E9828C9BFCF9163223AD94A41A67D2D7D186F2B08D4232BD"
+    },
+    {
+      "role": "student",
+      "path": "exam-authoring.js",
+      "sha256": "E48DDF094A7E6E3735262CC2A531ACF702241D8E08C7E8238D3D799E9ECB0BF3"
+    },
+    {
+      "role": "student",
+      "path": "exam-diagram.js",
+      "sha256": "1BEBA009E2FBB4B32CFD93C549AC75A6B0AD54B040DC191BC3C1B4D79ECA1C15"
+    },
+    {
+      "role": "student",
+      "path": "exam-language.js",
+      "sha256": "EDF8F5023ED8452D42A8CA12F39F4EC90EC1CDF7002ECFFD8F2000AEEDFF3521"
+    },
+    {
+      "role": "student",
+      "path": "exam-release.json",
+      "sha256": "6C4C6B3F3DD10DB1614489B4D5B0C71352D6494C989E8C38BD1A5AE4CC1637A1"
+    },
+    {
+      "role": "student",
+      "path": "exam-reports.js",
+      "sha256": "3764FDF9BF43D052096C248D6E24E26A51CA9B969149C2F4FEF8908A7EDE5AE0"
+    },
+    {
+      "role": "student",
+      "path": "index.html",
+      "sha256": "C6036D94F163FD71EB37F1EEBEB64FE7F77A09E4A433F04DE838D8EC60F28E49"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\DejaVuSans-Bold.ttf",
+      "sha256": "E6476C1B80502924294EED40894C5B18E06C181444CA953E5334262DF9C27724"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\DejaVuSans.ttf",
+      "sha256": "7DA195A74C55BEF988D0D48F9508BD5D849425C1770DBA5D7BFC6CE9ED848954"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\LICENSE",
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\NotoSansDevanagari-OFL.txt",
+      "sha256": "A216F6F8D85C7228093E0EE5E258D9D377E6671F68ACB4DB1930B29583D0F331"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\NotoSansDevanagari.ttf",
+      "sha256": "14EC4AF41F27482216D1C2229F417FF9B1425E1BABB014E57D1D40D03229853E"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\NotoSansOriya-OFL.txt",
+      "sha256": "C90FF15ADE263A49148E35AF34E9C177C6D56881E81260B29F10123E9E227ECA"
+    },
+    {
+      "role": "student",
+      "path": "exam-fonts\\NotoSansOriya.ttf",
+      "sha256": "910342275D619081B896B4ED25FD9AD6FF320C25591B810DE1FCC4BEB153BA82"
+    },
+    {
+      "role": "student",
+      "path": "exam-vision\\face_landmarker.task",
+      "sha256": "64184E229B263107BC2B804C6625DB1341FF2BB731874B0BCC2FE6544E0BC9FF"
+    },
+    {
+      "role": "student",
+      "path": "exam-vision\\vision_bundle.js",
+      "sha256": "EA86A96C1F61C4FF97E4B7BA764CD0A61A78D30CCEBE766DAA0F8F15F79049D1"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\DejaVuSans-Bold.ttf",
+      "sha256": "E6476C1B80502924294EED40894C5B18E06C181444CA953E5334262DF9C27724"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\DejaVuSans.ttf",
+      "sha256": "7DA195A74C55BEF988D0D48F9508BD5D849425C1770DBA5D7BFC6CE9ED848954"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\LiberationSans-Bold.ttf",
+      "sha256": "788ABEE4C806D660E8AEE46689DD8540CD4BB98DA03DCC9D171CE3EFD99A9173"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\LiberationSans-Regular.ttf",
+      "sha256": "76D04C18EA243F426B7DE1F3AD208E927008F961DC5945E5AAD352D0DFDE8EE8"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\LICENSE",
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\LICENSE-Liberation.txt",
+      "sha256": "93FED46019C38BBE566B479D22148E2E8A1E85ADA614ACCB0211C37B2C61C19B"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\NotoSansDevanagari-OFL.txt",
+      "sha256": "A216F6F8D85C7228093E0EE5E258D9D377E6671F68ACB4DB1930B29583D0F331"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\NotoSansDevanagari.ttf",
+      "sha256": "14EC4AF41F27482216D1C2229F417FF9B1425E1BABB014E57D1D40D03229853E"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\NotoSansOriya-OFL.txt",
+      "sha256": "C90FF15ADE263A49148E35AF34E9C177C6D56881E81260B29F10123E9E227ECA"
+    },
+    {
+      "role": "student",
+      "path": "fonts\\NotoSansOriya.ttf",
+      "sha256": "910342275D619081B896B4ED25FD9AD6FF320C25591B810DE1FCC4BEB153BA82"
+    },
+    {
+      "role": "student",
+      "path": "icons\\apple-touch-icon.png",
+      "sha256": "7A49FB121C96285A91A059A14C673B861D3ECBF7C93855B2E38246419B5EDC66"
+    },
+    {
+      "role": "student",
+      "path": "vendor\\html2pdf.bundle.min.js",
+      "sha256": "85E6EE9CE246E3AE4424313F7E46A5ED860A28D757811DE8DC9C43F306049D65"
+    },
+    {
+      "role": "student",
+      "path": "vendor\\jspdf.umd.min.js",
+      "sha256": "85BA2CC3FF858A20FA49FE6E457BEC863EA40B55A9F3725E58A940E62F6F61A4"
+    },
+    {
+      "role": "student",
+      "path": "vendor\\qr.js",
+      "sha256": "31D647A9D41AD154C88C8E5D01BF6102B70055D2189FCA4282F205C6C2E3E43A"
+    },
+    {
+      "role": "student",
+      "path": "vendor\\QRCODE-LICENSE",
+      "sha256": "8DF47C6AD9AC2C41EB9B2A72DEF9908959DA0EDE8DADD56C7B249C1BDB0C5CE6"
+    },
+    {
+      "role": "student",
+      "path": "exam-vision\\wasm\\vision_wasm_internal.js",
+      "sha256": "4A97E2520BA506C680ECD6BA6ACFB146888AFA0E2746D57F205352BC6EBB82EB"
+    },
+    {
+      "role": "student",
+      "path": "exam-vision\\wasm\\vision_wasm_internal.wasm",
+      "sha256": "F00EC4731FAA23B3E714D00E88D4D10E2DF5C0A427D3A2B4AE6E3526FDD14EF7"
+    },
+    {
+      "role": "student",
+      "path": "exam-vision\\wasm\\vision_wasm_nosimd_internal.js",
+      "sha256": "927DEF7B465C51B86E4B3060F93646ACA4E27121F4B8FC0483786E407EA9CF1F"
+    },
+    {
+      "role": "student",
+      "path": "exam-vision\\wasm\\vision_wasm_nosimd_internal.wasm",
+      "sha256": "3821EA9B1F7FB8C549EF2A064EF5C85750BF375C545A49FD6EEA0DF44A95F1F4"
+    }
+  ],
+  "units": {
+    "teacher": {
+      "copied": [
+        {
+          "name": "txUpdateImportButton",
+          "sha256": "A9E44EB56067080B17B6D1A9CFF7BE821F4376CEF3C7E899D50FC78D5F308304"
+        },
+        {
+          "name": "txLooksDamagedHindi",
+          "sha256": "129EC7E2C3CC8D8B8A342A654D2AD82BD405BFD92EC1D364A81FE7D6733B383E"
+        },
+        {
+          "name": "txRandomPick",
+          "sha256": "B00669769D1DF4DB3D0DFCE047E27AC25CF52758BF19ABD604109AE0F7964472"
+        },
+        {
+          "name": "txRegeneratePreviewOne",
+          "sha256": "E887EDA06462AE097A4F7C23773E1995F721277EB0D0D0D710EA697FFC7DB41F"
+        },
+        {
+          "name": "txAttachPerQuestionRegenerate",
+          "sha256": "CCA5F5EE8592C4E4C773E7300210104D20EB7ED795394F7804CD0F698C00C444"
+        },
+        {
+          "name": "txDiagramToolbar",
+          "sha256": "B1EC41F2556706D5AF02C077150C7BB002DAFA86BDDBF3855BDF6A5D7000AEC7"
+        },
+        {
+          "name": "txDiagramConvert",
+          "sha256": "C428F36C1FDA2C3EEC81F8B15A98CDFE33F5664FD8FAD88BFC4DB786988094C5"
+        },
+        {
+          "name": "txRemoveWhiteBackground",
+          "sha256": "003F4A1731BA94918037541BB9F15C573C5C35F92F529A33BCD8C407A89BA1D8"
+        },
+        {
+          "name": "txSchematicSVG",
+          "sha256": "FBF8B74E9D855BCF78EAA05605ED3BCE328493524B5D7265AF53DA91BF61C901"
+        },
+        {
+          "name": "txBindDiagrams",
+          "sha256": "DAABAB4EEF8C5F9BD78855A3B1B12CC772436C10F7C3C2A58DBEECEA6AABB591"
+        },
+        {
+          "name": "txUpdateOverview",
+          "sha256": "8FCAD588E97AAB0D1EDC7221216350F0CBDC79C3C2284F5F2BDD6D726B6FDEFE"
+        },
+        {
+          "name": "txReviewNormalize",
+          "sha256": "ABE79863EEAA7C3A8BE10BFFC6811C0A9AF6A21F9478A5A4D8B63AB2AE5DEC56"
+        },
+        {
+          "name": "txReviewSimilarity",
+          "sha256": "CD7C8ADA463F8567254D5A109CDCD870C3118C42620CB84BEC9AD7828473C955"
+        },
+        {
+          "name": "txReviewSuggestion",
+          "sha256": "835AA8C636CC6FFF47E422F3C7F5628243DE5F8BE0537C735A55AC53B84F015E"
+        },
+        {
+          "name": "TX_WALL",
+          "sha256": "DAF932B5DC0F591762EFCAC1F1A6A2A812A0C822B58B1B314137E271F3F1942A"
+        },
+        {
+          "name": "txWallList",
+          "sha256": "563D38C5CDF4C2557C9F7B7C5D7584E282F8C71A4E4CD105652653911B0A0DE8"
+        },
+        {
+          "name": "txWallVisible",
+          "sha256": "AF03C60517D9A102441A4667F767EC5F495F1DB5021B38597D1EF1B6F5CB14FC"
+        },
+        {
+          "name": "txWallStatus",
+          "sha256": "8A5C8D39686CBDDDF2211C0B89B8925C55F830D090CE8B2C299558512096F5EA"
+        },
+        {
+          "name": "txWallAttach",
+          "sha256": "8BC88654856B5D6C1C056028F3B5AA8BBA89E79A73725E5D14C9F057E8858CE3"
+        },
+        {
+          "name": "txWallDisconnect",
+          "sha256": "45835FF5BCCF7F990DCEF238EB7F8F870A4A5254EFD2BEE9589EF4E0AAD33440"
+        },
+        {
+          "name": "txWallStop",
+          "sha256": "A05A6D192B09DF50AC6AC109F7AAB50403721D0D54C20B709CB03CCCF811DF97"
+        },
+        {
+          "name": "txWallRender",
+          "sha256": "B061DBB440D42BD522E87B242BC5751A87720129B7B2623F9BF1894F88967DEC"
+        },
+        {
+          "name": "window.txWallStart",
+          "sha256": "6D342AD5E368F9BCAFC222B97ACAFFA3191AB06EB3827F003254FAB566CA5B1F"
+        },
+        {
+          "name": "window.txWallStop",
+          "sha256": "BD3BF7E15837B5BA47DA42AF8F06B7C2F093C31F4CC2E3B1A3DC111258D40B86"
+        },
+        {
+          "name": "txWallSetBatch",
+          "sha256": "EC63BD7219973495B30559D8135AA744C13C0481E39FC0FD0FF65F0E1C462620"
+        },
+        {
+          "name": "txWallMove",
+          "sha256": "EDE7AE04B215AC6E4645671181C4D5DFD384FC02283F7139966EA9D90FB4675C"
+        },
+        {
+          "name": "txWallClearWarnings",
+          "sha256": "7A405CD1581FB44F98094370505BC6A1062D6E4EC23EA86A8F40A101FF95F6A5"
+        },
+        {
+          "name": "txWallExitExpanded",
+          "sha256": "D1302E4291CD239D96D975DD5551BDEA434572B71C5538A837EDF1B2C7669740"
+        },
+        {
+          "name": "TX_WALL_CONTROLS_TIMERS",
+          "sha256": "B7EAEE4DD3D648E2E3C03D007D903C8002B94988AC91B6C5EED0EBA5A9BD6C2F"
+        },
+        {
+          "name": "txWallShowControls",
+          "sha256": "DB82046E46896580B2EEECB5C44BED89AF1CBE1FD6CC63FDE12A8BB7269B334B"
+        },
+        {
+          "name": "txWallWire",
+          "sha256": "0D0203D3881121D9C4476F58BE172BA704C23A419E548938F08B436E848E6AF2"
+        },
+        {
+          "name": "expression CallExpression",
+          "sha256": "7734B798AA263E5D5C0CCF67A8E5017CABB3D60431D60D31005C46F1C99F7857"
+        },
+        {
+          "name": "import ./exam-diagram.js",
+          "sha256": "79698F030D7056BFF68060F6A39DD7F45B274A029F5A65FEDCF160DDB029E417"
+        },
+        {
+          "name": "BlockStatement",
+          "sha256": "FFE19CEA1D449CD733F0AE5B648D99CC29204EB9E7D890224F72F84BDC9B96B7"
+        },
+        {
+          "name": "window.OPJCC_EXAM_RELEASE",
+          "sha256": "4FA35C15032641141ACB7B45F638793121D8C38D5BFA60F7CA4979531A63C06C"
+        },
+        {
+          "name": "TX_AUTHOR,TX_PREVIEW,TX_AI_BUSY,TX_SOURCE_TEXT,TX_PDF_SEQ",
+          "sha256": "61E7050A53BEC775310F0D95D5AA025114D95DBE17B6796433411ADE5DC0C9A2"
+        },
+        {
+          "name": "TX_AUTHOR_JOB,TX_AI_ABORT",
+          "sha256": "44A2E15C642C73C43E49AC78B4D307F1FD365AF0D116F75C51D8EC073AA5D613"
+        },
+        {
+          "name": "txSelected",
+          "sha256": "A45D6FD115758B0ABE822097B24C60BD747E494705DC406FC7318BC3F8ECF7E7"
+        },
+        {
+          "name": "txSelectedAnswers",
+          "sha256": "03AA8B2B03DCD8220E1166A2A1F0308B51DB182EA3D0C14A2769C5849778F046"
+        },
+        {
+          "name": "txBankSource",
+          "sha256": "B31AF7ECC265A89F50528D752D46D95E6B2C05DA0D917301173E7F51F2EECF76"
+        },
+        {
+          "name": "txCancelAuthorJob",
+          "sha256": "74307627C9C33FE327DB3C33DFD254B4448F6E32D3DFB563F16D3351DBE1FDBD"
+        },
+        {
+          "name": "txRunAuthorJob",
+          "sha256": "C49F12F7732249CBCE0BB5F56CDC3B2B940BB551F9DC66F941560DF14A98760B"
+        },
+        {
+          "name": "txQuestionAI",
+          "sha256": "F27442958BB8002AE7F07F62BF2925BB2377801CBFC17DB0C30EF65256A975BE"
+        },
+        {
+          "name": "txMoveQuestion",
+          "sha256": "76F6D6084F3895EE81E7415FCC59285E29C015F59EE0A901DA87E194314114DC"
+        },
+        {
+          "name": "txRenderSelectedPreview",
+          "sha256": "C9355C50C3D1517E69C476BFA0E91A691257103F5D3187D4BBC66B43C8315E8E"
+        },
+        {
+          "name": "txAssertEditable",
+          "sha256": "2202F407C80106951BC2AFAF0779360653084F18215AFBF7C8B411480FE56EC8"
+        },
+        {
+          "name": "txAuthorSettings",
+          "sha256": "3CF69ED5C201F5E14471196C7510B21259B753F7CEA2E2AA048F78DDAC091DF7"
+        },
+        {
+          "name": "txAuthorSummary",
+          "sha256": "62DDA80AB99EB3B2D71BCCFF586CED6B07852664273B28471144A2CDA9035E58"
+        },
+        {
+          "name": "txAuthorBind",
+          "sha256": "03E9571DE1ED3EDFAB48F50154C362E0ED1B4CDF9E776F129A3A1DC6F1B6B17B"
+        },
+        {
+          "name": "txSuggestTitle",
+          "sha256": "D5962A80B9F674B4218D9B871BCEC028C106A25CF843B6A3E09FF1933553A377"
+        },
+        {
+          "name": "txAuthorClass",
+          "sha256": "05C06E4C2874BCC82EB3EF2D6099F7B2887155F568EFF9D1AAF0675E04F2B61D"
+        },
+        {
+          "name": "txReadPDF",
+          "sha256": "83251F59B3F1E27633B9DAB164B602B0B41AE76E8D96A8DDC548E46B7B64965E"
+        },
+        {
+          "name": "txImportPDF",
+          "sha256": "7E122AB053CD6516331004AAD9624F7B7EB65C3C8B90FDDB0CACC932D9AFD23B"
+        },
+        {
+          "name": "txGenerateAI",
+          "sha256": "BC18541379C7816C5B590B94B0D2FA3E87BCAEA6E218E3CCA4259DAD04DC60F0"
+        },
+        {
+          "name": "txTranslate",
+          "sha256": "57B88DE19FBEB2CF3F5151E0AD0064A4CD0A65145BB7332EC597FF3AABEFDC80"
+        },
+        {
+          "name": "txStage",
+          "sha256": "B3818F19AAA2E9B9B7ACD212C5CD8BCEE94715DA95BB0CC382B42EF48A83B0BE"
+        },
+        {
+          "name": "txRenderPreview",
+          "sha256": "3DCDCF7328B26D42C6D215B0579B06284501FC9D4E70BDB859C3EE79BDA47AC5"
+        },
+        {
+          "name": "txAcceptPreview",
+          "sha256": "6C57B684989800F523E87F323D4CACAB2C2F41676362D9D3149B248A3FA891AF"
+        },
+        {
+          "name": "txSavedTranslation",
+          "sha256": "8A930867730ADE5515ACACFB1ADD46926CE55FE77ECF62E6624AFE03B53E9B57"
+        },
+        {
+          "name": "txQuestionPdf",
+          "sha256": "0B3F01BA4E70C5731E78DC936C5C7A65E44A1D89B36488C13653093F830D916A"
+        },
+        {
+          "name": "TX_EXAMS,TX_ATTEMPTS,TX_KEYS,TX_EDIT_ID,TX_QUESTIONS,TX_ANSWERS,TX_UNSUBS,TX_VIEW_PC,TX_VIEW_UNSUB,TX_SEEN_CAND",
+          "sha256": "49CAADE6EBEF75DAF8A09991B584522F257AA22164F823ED8D045BB60A57D450"
+        },
+        {
+          "name": "txId",
+          "sha256": "3C9CBF31832AB5BFAA064A63EB8B782778ED18691D4DE094D7601930A5424604"
+        },
+        {
+          "name": "txStamp",
+          "sha256": "66D0C17587A3DCCF3F6D4882A112823172A265985052A69B6DE5CB3536F488DC"
+        },
+        {
+          "name": "txGrade",
+          "sha256": "80D36779AADF661DF8A52EA3ACE98DB333B4E310442BEE98E3A69F53831A4FDA"
+        },
+        {
+          "name": "txTab",
+          "sha256": "0A2C3128D11607F4BF4F18AE705896A5F0134C4B467D81820E5E47860E2509C2"
+        },
+        {
+          "name": "txPublicVerified",
+          "sha256": "2A4E1D4F7B6667CD8D98D709DA4E71F7D4B6F6FBD64BA1DC4F4C5C42EB2DCAB6"
+        },
+        {
+          "name": "txHydrateVerified",
+          "sha256": "53908FA01F0C40562E4BD9083C3AA1861AFBF3DF479102E76FE98BEE612A74CD"
+        },
+        {
+          "name": "txStart",
+          "sha256": "2A0276E4D27E5765377D7D8CCA3A48F164C3289FB880612D19D55EB427BBB0F0"
+        },
+        {
+          "name": "txFillSelects",
+          "sha256": "9C0A3F500DA2E890F8308CBFC3069613B83892FD7D737CAF292F9FFBF1A13801"
+        },
+        {
+          "name": "txRenderExams",
+          "sha256": "731C59A5D6459F5CECA357B6965882F3B9EC38BE37C2B40492A0ED495C3545FA"
+        },
+        {
+          "name": "txEditor",
+          "sha256": "0EA36A31A00F17F7F053914984EF1AD3B3500B06B1F800B67EDF062C6E5D2ECD"
+        },
+        {
+          "name": "txLoadKey",
+          "sha256": "1897932B87979DC7A415CEB3996F0FE0738A94A52B531B6A055F13D7381ABDBF"
+        },
+        {
+          "name": "txQuestionId",
+          "sha256": "B03514977B09B5DFDCE38233B79505B4350AA06BD08A475BBEA4D7B2CA01A404"
+        },
+        {
+          "name": "txAddQuestion",
+          "sha256": "C6EC188AB43AC4B5557AAF56FD93AAE8916CACAB15A76738A02F4D9D7B0C0E3A"
+        },
+        {
+          "name": "txSyncTotal",
+          "sha256": "3FEDC61DB5F6B7694B463287EE14F4019693084E6612FA822A4C7318DC3CC6F0"
+        },
+        {
+          "name": "txRenderQList",
+          "sha256": "F5CB5ED1247649DD3DADEF0A04250B5D2291E447A509BBDF6DF27571EE76DC6D"
+        },
+        {
+          "name": "txRenderAdvancedQList",
+          "sha256": "20CEACD0F86E69117320F0E74E243E94D6D5E5463B71FD7B9E452EF99D1710F9"
+        },
+        {
+          "name": "txValidate",
+          "sha256": "18853FDA00375A44C1B6C289244226D5D76B990BADA8E7CA6717AEB8D684F08A"
+        },
+        {
+          "name": "txSave",
+          "sha256": "FB70069268791FA2AEA389A491F4BEBC8B6976D15E10E77F463F3AA889699343"
+        },
+        {
+          "name": "window.txReviewExam",
+          "sha256": "5702C5BF8DA667288DF5E39D0CDBDDB8CA87D50C396D8273017D900AE32F2CA2"
+        },
+        {
+          "name": "window.txExtendRepublish",
+          "sha256": "E0DF94916428C8ED4CCEFFE547A8FB61F5A4BD3562773F8635BEF259EDFA4E66"
+        },
+        {
+          "name": "window.txPublishExamGrades",
+          "sha256": "9DC737BF0F5F1993CCFF133F679F5418B0A94554DDF5D379DF93633E87B249BA"
+        },
+        {
+          "name": "txExamResultPdf",
+          "sha256": "EA769BA4444B40B4D8762373B1B7E9384EEC84050CE34CF002B2961217DC7559"
+        },
+        {
+          "name": "window.txExamResultPdf",
+          "sha256": "BCFB4AE6B527AFE791D6136FD6D7DC82D0665F0EE9277EED99F4727FF2410042"
+        },
+        {
+          "name": "txExamSubmissionPdf",
+          "sha256": "24DAB9AF0223222F2544408E6AAD130D42F14EC0418005FC2E1A7354ED9CD71A"
+        },
+        {
+          "name": "window.txExamSubmissionPdf",
+          "sha256": "17B073B4E93A289EBE946A7A9786768F9B5058130F84C785CFB393BCBAB5B090"
+        },
+        {
+          "name": "window.txQuestionPdf",
+          "sha256": "5CE6C68437F8C03A128653AA1732418E763081F874628D1F4CAAC0286CB81C57"
+        },
+        {
+          "name": "window.txEdit",
+          "sha256": "6E9CA19542AA71636DDA6A16B7D6E97305A4E17E6A7A5592ADA243801E843F23"
+        },
+        {
+          "name": "window.txStatus",
+          "sha256": "E1CF728F161955475255717D745FE03D9E7A92C0471F37D106A4FF107A53315B"
+        },
+        {
+          "name": "window.txArchive",
+          "sha256": "343B8FB690D0656AE63A64885E86C184998D786A190AFE10B73A105386D034B5"
+        },
+        {
+          "name": "window.txDelete",
+          "sha256": "B9E9AEDCE8FA4F37569B3839FEB5B976DAEFC03BBDEF4A36C348DCABF1FA589C"
+        },
+        {
+          "name": "txRenderEligibility",
+          "sha256": "E98F8052D0F600A5C0C2D43B91CBC80C5D180FFC61071186739462BFA716824E"
+        },
+        {
+          "name": "window.txSetElig",
+          "sha256": "5BF837EBBD0EA0BB90F1BF2FBA9C360121049A7EB2C1F29C938C347C70FF8CC1"
+        },
+        {
+          "name": "txRenderMonitor",
+          "sha256": "27F9A818C23083906A798815070E03E23AACCF5DDF8540C9F34C03B91E64F2E7"
+        },
+        {
+          "name": "window.txWarn",
+          "sha256": "F39582A3327953BC0B97AA275C749075C12B1F5AAFBE0F56D962CB06B0CB02FC"
+        },
+        {
+          "name": "window.txAttemptStatus",
+          "sha256": "99CD6B082599AD78883E65E48B5D1A6CA53D2998C4CB8EE95BB6EBCA5FF93B89"
+        },
+        {
+          "name": "window.txArchiveAttempt",
+          "sha256": "9729D66BC5DDA43CA55F315828410B131C65F9B7CF8170336715D2B21A68B81D"
+        },
+        {
+          "name": "window.txDeleteAttempt",
+          "sha256": "7C73ECD6AFAE72B818146415348B5590ADE01C4861FA16A9CD57AE9B6F4FDFB0"
+        },
+        {
+          "name": "txStopLive",
+          "sha256": "BB5BC76B48F48875AB5FD93D983E60AC3E0EF6DB3CB8592A1D88BE54C2D4EB35"
+        },
+        {
+          "name": "window.txViewLive",
+          "sha256": "4A4AA023AEBDF4865F7F562D355D2207E4D968489F9FB4CF38179B1C32249B7B"
+        },
+        {
+          "name": "txRenderReopen",
+          "sha256": "DCCAFBD085D1771B8BAC5D2E92768C800F56C193D53CCE8D30F2C65853FEEC6A"
+        },
+        {
+          "name": "window.teacherAllowExamReopen",
+          "sha256": "C24FFA0CF7CC700C3466ABB78334D23BD7EF7E8B04EF3CC4516F05BE94C92A94"
+        },
+        {
+          "name": "window.teacherCancelExamReopen",
+          "sha256": "3CC378B816D49C2245B22F653B21E8F5FCC57936C50B2FF12C984909C860A008"
+        },
+        {
+          "name": "window.txRecoverDeviceBackup",
+          "sha256": "797486C2943A57B1D66F6A3B504C9F753A1DE57A02E7A2D315E1567A2FC420B2"
+        },
+        {
+          "name": "txRenderResults",
+          "sha256": "81742AA0EC92274E2276407403D265188FAA55060010898140B0046E4CF50FD9"
+        },
+        {
+          "name": "txReviewStable",
+          "sha256": "C59A3B6B4F7D4E15E932FEBA3A340AAF711A6AD6B00C7DBD297876EBD95EBB67"
+        },
+        {
+          "name": "txReviewAnswers",
+          "sha256": "1713959C82929DEB2B268C86C1CAD3BC5E6098D33918FC28AE8BF2D66090B8E3"
+        },
+        {
+          "name": "txReviewPaperFingerprint",
+          "sha256": "F955E7AD7E693F33A798B95FC3E22291AB5AEE1035CF90375BCA9F0296AE29A6"
+        },
+        {
+          "name": "window.txGrade",
+          "sha256": "7068E1AB5A4B01D93C1061584C3CA28173E5EAB9E1729B4A229394A54C1D092B"
+        },
+        {
+          "name": "window.txPublishGrade",
+          "sha256": "5C7F8D6E170A388A3666105FD1C4482C657700C9F385C9F745C590D3189A2C5F"
+        }
+      ],
+      "originalHtmlSHA256": "A3362F074FCBF042C89DB557E05E1010535A4914299BAAB56CAF521BE30D1814"
+    },
+    "student": {
+      "copied": [
+        {
+          "name": "SX_EXAMS,SX_ELIG,SX_ATTEMPTS,SX_UNSUBS,SX_STREAM,SX_ACTIVE,SX_ANSWERS,SX_TIMER,SX_HEARTBEAT,SX_ATTEMPT_UNSUB,SX_SIGNAL_UNSUB,SX_SIGNAL_PCS,SX_FACE_TIMER,SX_FACE_LAST,SX_NOFACE,SX_FACE_LANDMARKER,SX_FACE_LOADING,SX_LOOK_STREAK,SX_LOOK_WARNINGS,SX_LOOK_LAST_WARN,SX_AUTO_BLOCKING,SX_FULLSCREEN_SUPPORTED,SX_CAMERA_EPISODE,SX_CAMERA_WARN_INFLIGHT,SX_CAMERA_POPUP_TIMER",
+          "sha256": "A7FF2044760E310393FCC7E230C0FFB96588E0A7C682C8456536DDBE5FFBAAEB"
+        },
+        {
+          "name": "SX_RUNTIME_EXPIRES_AT,SX_AUTO_SUBMITTING",
+          "sha256": "3F11791A3F92E47209AC2A763C6454FF6E679E331E0040DD97255D395C9C046E"
+        },
+        {
+          "name": "sxStamp",
+          "sha256": "D6DCCC09048B115494B7FCE993E2F14DD1B036A5DCA4AB46DBF97AD411989217"
+        },
+        {
+          "name": "sxId",
+          "sha256": "0250658A49BFA9CF1071B5EC86205A5F8CA4E5151B62C37D6F0F054D3E8C5C5A"
+        },
+        {
+          "name": "sxAndroidFinalizeMediaUI",
+          "sha256": "C1F7767B136809C3BFCABA55CAC71470F6249EAACD5C1ECD6E686F97885977CC"
+        },
+        {
+          "name": "sxStopAll",
+          "sha256": "30B4A855C78599AEBEA248B1E295D9F075FC3C64395101999072E30EB362EBD9"
+        },
+        {
+          "name": "sxStart",
+          "sha256": "6222CC7EB369983561704BEC303F4B08604DF909FB80823C424AD5C608D667E3"
+        },
+        {
+          "name": "sxRenderList",
+          "sha256": "9D704A682A974CEAD9DBA9B1BC053D9A2023997148EB5A30C92D98925C92EF0D"
+        },
+        {
+          "name": "window.sxDownloadAnswerSheet",
+          "sha256": "65D6FC98D7AD29FBBAAECA30A99AD4DB8609364F1EEF962D38A6331AFF414830"
+        },
+        {
+          "name": "expression ChainExpression",
+          "sha256": "F8FCF55A51980A89DAA3513C51EA5564F3C269452476D9C0906B628D52BB78F8"
+        },
+        {
+          "name": "SX_STORE",
+          "sha256": "881ECA5F596A8C239F35A8E7919E236AFFFFA965DC3104B5FDC9FB886D570437"
+        },
+        {
+          "name": "SX_DRAFT_PENDING",
+          "sha256": "5B97E868C221BF96D4645A541F1553E11636087E4974067DB4018B4285359436"
+        },
+        {
+          "name": "sxSetupAnswerStore",
+          "sha256": "006B971D2B104B23524606E0D05D31B49A87ED22A7155AE4234C945AD91C65AC"
+        },
+        {
+          "name": "sxAnswerState",
+          "sha256": "24A9037734A36BEFD2432C5280713D1FAD3D1FB3FB7365333B66B20176742E54"
+        },
+        {
+          "name": "sxExamConfirm",
+          "sha256": "1EC1CF069264B2D3DE4BD66AE13D499B70763BDDFC759036129D15E329A3009D"
+        },
+        {
+          "name": "sxBindAnswerControls",
+          "sha256": "27225E70835CD511D725285F2F4A1E6ADD0FC13E04F37E5C55D66C24946442D0"
+        },
+        {
+          "name": "sxExportBackup",
+          "sha256": "79055A47194A8809EC9328DEB3FFED93411ECF8F35754D8EEE0E75ED10A68CA9"
+        },
+        {
+          "name": "window.sxDeviceBackups",
+          "sha256": "28F2B92A7CC4415C68273037849C40992A7D36892F596A71065997D0ACA1C78C"
+        },
+        {
+          "name": "window.sxOpen",
+          "sha256": "1AAB94DAAE814612ED03D787F3F5417A12DF6E5D449EAC8E0336E793E68D4379"
+        },
+        {
+          "name": "sxMediaDiagnosticHint",
+          "sha256": "752FDF98A87D64C00EA4A8C7A3F950D644BF34D44A879DE0E8887B28E290F532"
+        },
+        {
+          "name": "sxAndroidChrome",
+          "sha256": "54D6A25A0122B0A1FEC4E27A47260B7D06D2A8A83DB4F9EF8CB57DAC8A40ACA8"
+        },
+        {
+          "name": "sxAndroidMediaReady",
+          "sha256": "BFC4A5C20F42E3059B8B98C624A6654CB2B44FF177DE324012429C90C808A790"
+        },
+        {
+          "name": "sxCheckAndroidDevice",
+          "sha256": "2DEFA062C15326EC07129FF891C00A3C0208657EAE5D68E32493CA99BDAAE737"
+        },
+        {
+          "name": "sxLegacyIntegrity",
+          "sha256": "493B5ABF2AFD2E51B11E04AD8252593102C938364610FC777AD6EB8C120FAC48"
+        },
+        {
+          "name": "sxCheckDevice",
+          "sha256": "4C1F5F474482307862C8F102B7FB69AAEF784319FB1C44611F8B4DFBB1A71F66"
+        },
+        {
+          "name": "sxCapturePhoto",
+          "sha256": "3290AEC6BFA8EF09876E163CB6282018058F838FCF45B016B20DB1BDC3C92296"
+        },
+        {
+          "name": "SX_ANDROID_RUNTIME,SX_FACE_WATCHDOG,SX_LAST_FACE_SAMPLE",
+          "sha256": "C2DB5C3D53FB4BFCF6F65F90CA86B883F997B4E9B0559A820E7CE3DBDDF1B22A"
+        },
+        {
+          "name": "sxAndroidAIReady",
+          "sha256": "03099F0769F8F40D7B267D6966B34069414E78407A865862B867808D3E813198"
+        },
+        {
+          "name": "sxAndroidFaceMonitor",
+          "sha256": "3B0A7DED80AB8AF6FF5F22F99BE170829828F01FD9FA5489CE6CB63BA77CC22D"
+        },
+        {
+          "name": "sxBegin",
+          "sha256": "83E789F41039ECA04A48DD22C34B6C7927F6796DDC2714EE16C30B4BDF8341E4"
+        },
+        {
+          "name": "sxRenderRoom",
+          "sha256": "2981B0FA5CE99C69DDB6E9FA0C63E5ACDD6A8189AFE577AAF7D069EBABD72C45"
+        },
+        {
+          "name": "sxAutosave",
+          "sha256": "9941FADBFF1715A285C13E37B996A7287BBA7BF9FE2659193C1B4D5A31D5372B"
+        },
+        {
+          "name": "sxTimerTick",
+          "sha256": "608A4778DC2425B5FAAE98869B0716D8F03A2348BE3B8554BBF2186D0202340B"
+        },
+        {
+          "name": "sxSubmit",
+          "sha256": "0B65DD186BB5B6266DE603CD778B276C9BBAA9ABC72F002F064FF7A86DDA0624"
+        },
+        {
+          "name": "sxAudit",
+          "sha256": "0B0594209DDCE54E8361FCC9F371F287DB918C72F962920BEE48DDB559A40431"
+        },
+        {
+          "name": "sxLocalNotice",
+          "sha256": "09E9CB3D00C1F85BAFA42346075BB317CFB36CC6772ED21EB93B1103B7706BE3"
+        },
+        {
+          "name": "sxWarn",
+          "sha256": "3694879332947C8886E106071B7BBDDE3EDEF1FE74C25D6BC3E2C0FEE3F4A3BD"
+        },
+        {
+          "name": "sxLookWarning",
+          "sha256": "2BC590DD9C8FCB2FEE846913B04F57E72D7D74F2FB052058E225A61D06B65CA4"
+        },
+        {
+          "name": "sxAutoBlock",
+          "sha256": "F473B9E75AD5A994AF0B95569F996E654CC230BC98B27E7967980DD580DC1070"
+        },
+        {
+          "name": "sxBindAttempt",
+          "sha256": "82A5CE1E4E973E23982B01133BF40ABFB9D0CB3496573130DE40BC44225C1B5B"
+        },
+        {
+          "name": "sxHeartbeat",
+          "sha256": "9DEC27A0458AEDB505B3DE2E9206D4106406E82AF88A45D9B49546767550C999"
+        },
+        {
+          "name": "sxIntegrity",
+          "sha256": "AAA3C6042347BDAAD65F7F1E04CFBEB5F5F6D31545EFBD7E4E5DB35FAA1C4044"
+        },
+        {
+          "name": "sxLoadFaceAI",
+          "sha256": "864EB696AAA93A4C958B2512383162071A90E4E27D1EEC3593F86B46E677ED66"
+        },
+        {
+          "name": "sxFaceDirection",
+          "sha256": "F8FDBA156644024A042DDFAD8B49BF99AC8DEA72C87B65537BB1AABF2171028A"
+        },
+        {
+          "name": "sxFaceMonitor",
+          "sha256": "3247642D28E357D944F5285F792889430000522FAD3B677F6F948E73C3890359"
+        }
+      ],
+      "originalHtmlSHA256": "C6036D94F163FD71EB37F1EEBEB64FE7F77A09E4A433F04DE838D8EC60F28E49"
+    }
+  },
+  "changes": [
+    "teacher: exam-only AST extraction; local API imports/bootstrap; continuous streaming disabled; AI fail-closed.",
+    "student: exam-only AST extraction; local API imports/bootstrap; continuous streaming disabled; AI fail-closed. sxBegin reads confirmed server attempt/deadline before creating the local answer-store descriptor."
+  ]
+}

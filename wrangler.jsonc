@@ -1,0 +1,9 @@
+{
+  "name": "opjcc-exam-api",
+  "main": "backend/worker.js",
+  "compatibility_date": "2026-11-14",
+  "workers_dev": true,
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "opjcc-exam-db", "database_id": "REQUIRES_VERIFIED_NEW_ACCOUNT_AND_NEW_DATABASE", "migrations_dir": "migrations" }],
+  "vars": { "INTEGRATIONS_ENABLED": "false" }
+}
