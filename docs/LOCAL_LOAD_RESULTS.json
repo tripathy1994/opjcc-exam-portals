@@ -4,13 +4,13 @@
     "starts": 50,
     "saves": 200,
     "submissions": 50,
-    "durationMs": 472
+    "durationMs": 386
   },
   "stress50": {
     "starts": 50,
     "saves": 50,
     "submissions": 50
   },
-  "totalDurationMs": 653,
+  "totalDurationMs": 542,
   "cloudflareUsage": "not measured — no account access"
 }
