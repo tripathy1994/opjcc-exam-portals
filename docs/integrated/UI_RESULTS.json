@@ -1,0 +1,51 @@
+{
+  "teacher": {
+    "rows": 30,
+    "summary": "Total Students\n30\nActive in Exam\n0\nSubmitted\n2\nWarnings\n12\nOffline / Reconnect\n28",
+    "photos": 0,
+    "errors": [],
+    "actions": [
+      {
+        "action": "warn",
+        "serverConfirmed": true
+      },
+      {
+        "action": "hold",
+        "serverConfirmed": true
+      },
+      {
+        "action": "block",
+        "serverConfirmed": true
+      },
+      {
+        "action": "clear",
+        "serverConfirmed": true
+      },
+      {
+        "action": "resume",
+        "serverConfirmed": true
+      }
+    ],
+    "batch20": true,
+    "tabletLayout": [
+      {
+        "height": 636,
+        "position": "relative"
+      },
+      {
+        "height": 640.5,
+        "position": "relative"
+      },
+      {
+        "height": 448,
+        "position": "relative"
+      }
+    ]
+  },
+  "student": {
+    "examList": "eligible\nSYNTHETIC · CON/N9001 Safety Exam\n\nJindal Foundation • local-jf\n\n50 questions • 50 marks • 90 min\n\nStart Secure Exam",
+    "errors": [],
+    "precheckVisible": true,
+    "noCameraOrStartPressed": true
+  }
+}

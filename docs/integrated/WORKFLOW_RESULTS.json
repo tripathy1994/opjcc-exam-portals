@@ -1,0 +1,22 @@
+{
+  "environment": "Full locked portal staging copies, original Auth/Firestore SDK mocked and production requests blocked",
+  "teacherBuilderPublished": true,
+  "syntheticAdmission": true,
+  "physicalCameraStart": false,
+  "answerStoreServerConfirmed": true,
+  "halfMark": 0.5,
+  "resultPublished": true,
+  "ownPDF": {
+    "downloaded": true,
+    "bytes": 363040,
+    "filename": "OPJCC_Individual_Answer_Sheet_4b132467-b9a0-48f9-83f9-1e1ff8105eb2.pdf"
+  },
+  "teacherErrors": [],
+  "studentErrors": [],
+  "dialogs": [
+    "Approve and publish exactly 1 selected questions from the 1-question bank? Every Student receives this same set.",
+    "Assessment published",
+    "Teacher verification saved: 0.5/1. NOT published.",
+    "Answer sheet downloaded. Print it and submit the signed copy to your teacher."
+  ]
+}

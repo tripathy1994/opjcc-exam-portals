@@ -1,5 +1,6 @@
 param([ValidateSet('ProvisionDatabase','MigrateDatabase','DeployApi','DeployTeacher','DeployStudent')][string]$Action)
 $ErrorActionPreference='Stop'
+if($Action -in @('DeployTeacher','DeployStudent')){throw 'Architecture changed: no additional standalone Teacher/Student websites. Only new backend deployment can be approved; original Hosting requires separate production approval.'}
 $projectRoot=Split-Path $PSScriptRoot -Parent
 $approvalPath=Join-Path $projectRoot 'config\account-approval.local.json'
 if(!(Test-Path -LiteralPath $approvalPath)){throw 'BLOCKED: dedicated-account verification record missing. Do not access Cloudflare while browser safety block remains.'}

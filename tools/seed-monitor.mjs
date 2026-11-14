@@ -1,0 +1,20 @@
+// Explicit isolated synthetic scenario. Never imported by Cloudflare Worker.
+import{Service}from'../backend/worker.js';
+const actor={uid:'demo-teacher',role:'teacher'};
+export async function seedMonitor(env){const db=env.DB;if(db.sqlite.prepare("SELECT 1 FROM documents WHERE collection='exams' AND id='monitor-local-jf'").get())return;
+ async function write(user,c,id,data,merge=false){const version=db.sqlite.prepare('SELECT version FROM documents WHERE collection=? AND id=?').get(c,id)?.version||0;return new Service(env,user).commit({reads:[],writes:[{collection:c,id,data,merge,expectedVersion:version}]});}
+ const photo='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+j1ioAAAAASUVORK5CYII=';
+ for(const [eid,cid,count,offset]of[['monitor-local-jf','local-jf',30,0],['monitor-local-ntpc','local-ntpc',20,30]]){
+ const questions=Array.from({length:50},(_,i)=>({id:'monitor-q'+(i+1),type:'mcq',text:`Synthetic safety question ${i+1}: choose the safe tool.`,options:['Insulated cutter','Damaged tool','Loose handle','Broken insulation'],marks:1})),answers=Object.fromEntries(questions.map(q=>[q.id,0])),exam={id:eid,examProtocolVersion:1,clientWriteToken:crypto.randomUUID(),teacherId:actor.uid,classId:cid,title:'SYNTHETIC · CON/N9001 Safety Exam',status:'draft',questions,paperLanguage:'English',totalMarks:50,duration:90,startAtMs:Date.now()-60000,endAtMs:Date.now()+7200000,projectType:offset?'NTPC CSR':'Jindal Foundation',batchId:offset?'LOCAL-NTPC':'LOCAL-JF'},key={examId:eid,classId:cid,teacherId:actor.uid,answers,verifiedResults:{},questionBank:{schema:1,language:'English',questions,answers,warnings:[]}};
+ await new Service(env,actor).commit({reads:[],writes:[{collection:'exams',id:eid,data:exam,expectedVersion:0},{collection:'examAnswerKeys',id:eid,data:key,expectedVersion:0}]});await write(actor,'exams',eid,{status:'published',publishedAt:{__op:'timestamp'}},true);
+ for(let j=1;j<=count;j++){const i=j+offset,uid='demo-student-'+i,user={uid,role:'student'},id=eid+'_'+uid,enid=cid+'_'+uid,row=db.sqlite.prepare("SELECT body FROM documents WHERE collection='enrollments' AND id=?").get(enid),en=JSON.parse(row.body);en.rollNumber=(offset?'NTPC':'JF')+String(j).padStart(3,'0');db.sqlite.prepare("UPDATE documents SET body=?,version=version+1 WHERE collection='enrollments' AND id=?").run(JSON.stringify(en),enid);
+ await write(actor,'examEligibility',id,{id,examId:eid,classId:cid,teacherId:actor.uid,studentId:uid,status:'eligible'});
+ await write(user,'examAttempts',id,{id,examId:eid,classId:cid,teacherId:actor.uid,studentId:uid,studentName:'Synthetic Student '+i,status:'started',questionOrder:questions.map(q=>q.id),paperLanguage:'English',languageSnapshot:{language:'English',questions,sourceSignature:JSON.stringify(questions)},answers:{},examPhotoURL:photo,consent:true,cameraOn:true,micOn:true,online:true,warningCount:0,archived:false,gradePublished:false,expiresAtMs:Date.now()+5000000,startedAt:{__op:'timestamp'},updatedAt:{__op:'timestamp'}});
+ await write(user,'examAttempts',id,{cameraOn:true,micOn:true,online:true,lastSeenAt:{__op:'timestamp'},syncPendingCount:j===4?1:0,unconfirmedDraftCount:0,aiMonitoringState:'active'},true);
+ if([1,3,7,8].includes(j))for(let n=1;n<=([3,8].includes(j)?4:2);n++)await write(user,'examAttempts',id,{warningCount:n,aiLookAwayCount:n,lastWarning:j===3?'MULTIPLE_FACES':'FACE_MISSING'},true);
+ if([6,10].includes(j))await write(user,'examAttempts',id,{status:'submitted',submittedAt:{__op:'timestamp'},cameraOn:false,micOn:false},true);
+ // Deliberate stale-heartbeat fixture, not a fabricated live observation.
+ if([5,11].includes(j)){const raw=db.sqlite.prepare("SELECT body FROM documents WHERE collection='examAttempts' AND id=?").get(id),a=JSON.parse(raw.body);a.lastSeenAt={seconds:Math.floor((Date.now()-(j===5?95000:150000))/1000)};db.sqlite.prepare("UPDATE documents SET body=?,version=version+1 WHERE collection='examAttempts' AND id=?").run(JSON.stringify(a),id);}
+ }
+ }
+}

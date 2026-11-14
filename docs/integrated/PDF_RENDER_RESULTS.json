@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "approval-jf",
+    "pages": 1,
+    "bytes": 268898,
+    "warnings": []
+  },
+  {
+    "kind": "approval-ntpc",
+    "pages": 1,
+    "bytes": 267578,
+    "warnings": []
+  },
+  {
+    "kind": "individual",
+    "pages": 1,
+    "orientation": "portrait",
+    "bytes": 408383,
+    "warnings": []
+  },
+  {
+    "kind": "combined",
+    "pages": 1,
+    "orientation": "landscape",
+    "bytes": 287360,
+    "warnings": []
+  }
+]

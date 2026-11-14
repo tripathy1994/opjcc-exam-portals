@@ -1,3 +1,5 @@
+> HISTORICAL 14 November independent-candidate report. Current integrated results: docs/integrated/TEST_REPORT.md.
+
 # Local implementation verification — 14 November 2026
 
 This is a working LOCAL development candidate, not a deployed or production-ready examination release. All test identities, papers and answers were synthetic. No Cloudflare account access, production Firebase reads/writes, AI calls or Cloudinary uploads were used.
@@ -50,3 +52,4 @@ Expired attempts cannot save new answers, but can irreversibly submit their prev
 ## Production protection
 
 All writes were limited to C:\OPJCC_EXAM_PORTALS. Locked recovery files are read-only references and rechecked against their manifest. No original Teacher/Student file, Attendance code, Firebase data/Rules/Auth/IAM, Cloudinary settings or Worker was changed. No cloud resources were provisioned.
+

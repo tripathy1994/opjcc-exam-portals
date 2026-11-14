@@ -1,0 +1,7 @@
+// Live Exam transport compatibility: legacy extend UI supplies endAt text only.
+// Never alter attempt deadlines or unrelated records. College schedules use IST.
+export function normalizeExamSchedule(ref,data){
+ if(ref.collection!=='exams'||typeof data.endAt!=='string'||Object.hasOwn(data,'endAtMs'))return data;
+ const value=data.endAt,withZone=/[zZ]|[+-]\d\d:\d\d$/.test(value)?value:value+'+05:30',endAtMs=Date.parse(withZone);
+ if(!Number.isFinite(endAtMs))throw Error('Invalid examination end time');return {...data,endAtMs};
+}

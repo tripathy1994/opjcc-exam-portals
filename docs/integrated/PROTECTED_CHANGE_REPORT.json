@@ -1,0 +1,720 @@
+{
+  "baseline": "E:/OPJCC_LOCKED_RECOVERY_20261114_005807",
+  "createdAt": "2026-11-14T20:33:50.493Z",
+  "roles": {
+    "teacher": {
+      "originalHTML": "A3362F074FCBF042C89DB557E05E1010535A4914299BAAB56CAF521BE30D1814",
+      "stagingHTML": "204D759FE4290FDB06E113FA828913ADB3984E481F59EB29D89ADCB748DE1848",
+      "outsideAllowedRangesIdentical": true,
+      "unchangedNamedUnits": 482,
+      "protectedNonExamUnits": 445,
+      "allOtherFilesUnchanged": [
+        {
+          "file": "campus-config.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-answer-store.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-authoring.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-diagram.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-question-bank.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-recovery.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-release.json",
+          "unchanged": true
+        },
+        {
+          "file": "exam-reports.js",
+          "unchanged": true
+        },
+        {
+          "file": "favicon.ico",
+          "unchanged": true
+        },
+        {
+          "file": "manifest.webmanifest",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\DejaVuSans-Bold.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\DejaVuSans.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LiberationSans-Bold.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LiberationSans-Regular.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LICENSE",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LICENSE-Liberation.txt",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansDevanagari-OFL.txt",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansDevanagari.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansOriya-OFL.txt",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansOriya.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\apple-touch-icon.png",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\favicon-32.png",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\icon-192.png",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\icon-512.png",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\icon-maskable-192.png",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\icon-maskable-512.png",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\pdf.mjs",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\pdf.worker.mjs",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\PDFJS-LICENSE",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\qr.js",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\QRCODE-LICENSE",
+          "unchanged": true
+        }
+      ],
+      "edits": [
+        {
+          "name": "Scoped Live Exam monitoring stylesheet",
+          "originalStart": 3891441,
+          "originalEnd": 3891441,
+          "outputStart": 3891441,
+          "oldSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "newSHA256": "C3C63D2D4ACF12640E73B89D835F55D018616F1614BDF81955435089FDB94755"
+        },
+        {
+          "name": "Teacher Live Exam monitoring panel",
+          "originalStart": 4000808,
+          "originalEnd": 4002818,
+          "outputStart": 4000872,
+          "oldSHA256": "4DFC6E92285B241232786FDC4B910A4246C40B70091CC1A9DCD05B44CF6418EA",
+          "newSHA256": "4DDB081F12A4A664962C6349E79920B51C10C6FC86085F375C3876535C235C5C"
+        },
+        {
+          "name": "Live Exam API integration import",
+          "originalStart": 4005768,
+          "originalEnd": 4005768,
+          "outputStart": 4003862,
+          "oldSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "newSHA256": "0DBF7BD4F155D1308BAC282EE7C7A2252E4074272E60EED3B9CA357E9F81E87F"
+        },
+        {
+          "name": "txWallDisconnect",
+          "originalStart": 4272995,
+          "originalEnd": 4273688,
+          "outputStart": 4271347,
+          "oldSHA256": "45835FF5BCCF7F990DCEF238EB7F8F870A4A5254EFD2BEE9589EF4E0AAD33440",
+          "newSHA256": "5DA869456DF4C0FB7C88D9270884689636C3C8A30A731ECF17A2E4035C01B948"
+        },
+        {
+          "name": "txWallConnect",
+          "originalStart": 4273984,
+          "originalEnd": 4277056,
+          "outputStart": 4272348,
+          "oldSHA256": "0330161F11931131ABBA17850DBEEB22C841A4C6A3647F672E5C636F6F072F6D",
+          "newSHA256": "97256BDE67514EE685833B5A48D91E51F21132918C71517CBDCF8C1DB9E75950"
+        },
+        {
+          "name": "txWallClearWarnings",
+          "originalStart": 4281283,
+          "originalEnd": 4282091,
+          "outputStart": 4276694,
+          "oldSHA256": "7A405CD1581FB44F98094370505BC6A1062D6E4EC23EA86A8F40A101FF95F6A5",
+          "newSHA256": "D7D8DAA378A857216049B9E2D29744B4F51D1E7B39B5C91684C11AF1F8FD0494"
+        },
+        {
+          "name": "txAssertEditable",
+          "originalStart": 4291013,
+          "originalEnd": 4291628,
+          "outputStart": 4286436,
+          "oldSHA256": "2202F407C80106951BC2AFAF0779360653084F18215AFBF7C8B411480FE56EC8",
+          "newSHA256": "AB1EC7EA86069C17A55B24CB359E48C7A6EECF16B84AFDDD8BD1EEDC55E21564"
+        },
+        {
+          "name": "txAIRequest",
+          "originalStart": 4299760,
+          "originalEnd": 4300773,
+          "outputStart": 4295207,
+          "oldSHA256": "781614384CFF0FC037B5A6F591F64147A100FE26381FD0F6875A028015FD45B1",
+          "newSHA256": "74B9A779CD48213E29516C44DB1A8C42B14A7EDA7DA5E75669BEE3F43DA3381A"
+        },
+        {
+          "name": "txStamp",
+          "originalStart": 4314778,
+          "originalEnd": 4314814,
+          "outputStart": 4309377,
+          "oldSHA256": "66D0C17587A3DCCF3F6D4882A112823172A265985052A69B6DE5CB3536F488DC",
+          "newSHA256": "B44FF73F729E1FC0C6A19FEC0E1855F2A1BDE4D20CB5C7E2E7B2823249F9E438"
+        },
+        {
+          "name": "txHydrateVerified",
+          "originalStart": 4315515,
+          "originalEnd": 4315909,
+          "outputStart": 4310117,
+          "oldSHA256": "53908FA01F0C40562E4BD9083C3AA1861AFBF3DF479102E76FE98BEE612A74CD",
+          "newSHA256": "EB6843E54CE91843239104270DE8D94D920CC96E7272E573435A1475FC758D56"
+        },
+        {
+          "name": "txStart",
+          "originalStart": 4315910,
+          "originalEnd": 4316582,
+          "outputStart": 4310518,
+          "oldSHA256": "2A0276E4D27E5765377D7D8CCA3A48F164C3289FB880612D19D55EB427BBB0F0",
+          "newSHA256": "40D01E5F9A5AB5C2BEDF601A31FBA21D4D611B9596ABDA660234677A36253CFE"
+        },
+        {
+          "name": "txLoadKey",
+          "originalStart": 4329642,
+          "originalEnd": 4330455,
+          "outputStart": 4324274,
+          "oldSHA256": "1897932B87979DC7A415CEB3996F0FE0738A94A52B531B6A055F13D7381ABDBF",
+          "newSHA256": "61BB858735D6F079E50037C28D5B3617BBFFD6C7F0F1F68518AF2FDADAD8BD78"
+        },
+        {
+          "name": "txSave",
+          "originalStart": 4343005,
+          "originalEnd": 4347931,
+          "outputStart": 4337643,
+          "oldSHA256": "FB70069268791FA2AEA389A491F4BEBC8B6976D15E10E77F463F3AA889699343",
+          "newSHA256": "D88AC6868B8978410E616F7809D269CA38D00EB8653F1716AA4110ED1C3ACEDA"
+        },
+        {
+          "name": "window.txExtendRepublish",
+          "originalStart": 4348045,
+          "originalEnd": 4348644,
+          "outputStart": 4342717,
+          "oldSHA256": "E0DF94916428C8ED4CCEFFE547A8FB61F5A4BD3562773F8635BEF259EDFA4E66",
+          "newSHA256": "BC630AD5332FB6F132C20D8C294F98F4D06E5970B4F00D09CDBDDC86DEC36D87"
+        },
+        {
+          "name": "window.txPublishExamGrades",
+          "originalStart": 4348645,
+          "originalEnd": 4349289,
+          "outputStart": 4343323,
+          "oldSHA256": "9DC737BF0F5F1993CCFF133F679F5418B0A94554DDF5D379DF93633E87B249BA",
+          "newSHA256": "D0A001B3EFADBDF2163454CF15C22E6A9310038FB2D4F94DC584511BD24C0986"
+        },
+        {
+          "name": "txExamResultPdf",
+          "originalStart": 4349290,
+          "originalEnd": 4350467,
+          "outputStart": 4343974,
+          "oldSHA256": "EA769BA4444B40B4D8762373B1B7E9384EEC84050CE34CF002B2961217DC7559",
+          "newSHA256": "1D1848EADF6D0C9555D3D6B29D2897D54D1501FA7C4E3F2EBE591FE01E06CC58"
+        },
+        {
+          "name": "txExamSubmissionPdf",
+          "originalStart": 4350508,
+          "originalEnd": 4351691,
+          "outputStart": 4345204,
+          "oldSHA256": "24DAB9AF0223222F2544408E6AAD130D42F14EC0418005FC2E1A7354ED9CD71A",
+          "newSHA256": "C94B16A7E668B67CFC6F75B6090D8D062254537E837B2539E3F6BE02CDB4F61E"
+        },
+        {
+          "name": "window.txStatus",
+          "originalStart": 4352160,
+          "originalEnd": 4352514,
+          "outputStart": 4346871,
+          "oldSHA256": "E1CF728F161955475255717D745FE03D9E7A92C0471F37D106A4FF107A53315B",
+          "newSHA256": "6B78F44A76A65A4B8156C354F5B2347B3FB82828B6A9820B5EAA1C6B363F27E1"
+        },
+        {
+          "name": "window.txArchive",
+          "originalStart": 4352514,
+          "originalEnd": 4352670,
+          "outputStart": 4347231,
+          "oldSHA256": "343B8FB690D0656AE63A64885E86C184998D786A190AFE10B73A105386D034B5",
+          "newSHA256": "4E1BB23C8E048E3DA4BEE1FD7CBA3C0AA0ADCB03FFCE25512B88B11262C60FDA"
+        },
+        {
+          "name": "window.txDelete",
+          "originalStart": 4352670,
+          "originalEnd": 4355595,
+          "outputStart": 4347393,
+          "oldSHA256": "B9E9AEDCE8FA4F37569B3839FEB5B976DAEFC03BBDEF4A36C348DCABF1FA589C",
+          "newSHA256": "3C9E98ED4FA01937AB4DC0DBC0E3CC5E7BAE1D312F3A188CEB3D0176F422734D"
+        },
+        {
+          "name": "txRenderEligibility",
+          "originalStart": 4355596,
+          "originalEnd": 4357704,
+          "outputStart": 4350370,
+          "oldSHA256": "E98F8052D0F600A5C0C2D43B91CBC80C5D180FFC61071186739462BFA716824E",
+          "newSHA256": "EF3B506F65F7FA79D4A8258D4196996F002871CA2A71BCCED8AEF585C43D36E0"
+        },
+        {
+          "name": "window.txSetElig",
+          "originalStart": 4357705,
+          "originalEnd": 4357964,
+          "outputStart": 4352497,
+          "oldSHA256": "5BF837EBBD0EA0BB90F1BF2FBA9C360121049A7EB2C1F29C938C347C70FF8CC1",
+          "newSHA256": "D8E13FDBAFE29D1578EC7198E041D26D464FD98426BA5B9C78AF0E4A3738325A"
+        },
+        {
+          "name": "txRenderMonitor",
+          "originalStart": 4357965,
+          "originalEnd": 4359323,
+          "outputStart": 4352763,
+          "oldSHA256": "27F9A818C23083906A798815070E03E23AACCF5DDF8540C9F34C03B91E64F2E7",
+          "newSHA256": "44013EF86F6F419F726038E22E229606836F6073AF1F49F114D764C10320C0D7"
+        },
+        {
+          "name": "window.txWarn",
+          "originalStart": 4359324,
+          "originalEnd": 4359772,
+          "outputStart": 4352934,
+          "oldSHA256": "F39582A3327953BC0B97AA275C749075C12B1F5AAFBE0F56D962CB06B0CB02FC",
+          "newSHA256": "3ACFB77E04B40758B84CA754D7892EF05085B496FE948BC37FADE34133756A7D"
+        },
+        {
+          "name": "window.txAttemptStatus",
+          "originalStart": 4359772,
+          "originalEnd": 4360171,
+          "outputStart": 4353394,
+          "oldSHA256": "99CD6B082599AD78883E65E48B5D1A6CA53D2998C4CB8EE95BB6EBCA5FF93B89",
+          "newSHA256": "062453EAEE0CB0555E0CB51303C0BCDE2C38E5D7EF106AE92787DCF3CF03938A"
+        },
+        {
+          "name": "window.txArchiveAttempt",
+          "originalStart": 4360171,
+          "originalEnd": 4360339,
+          "outputStart": 4353805,
+          "oldSHA256": "9729D66BC5DDA43CA55F315828410B131C65F9B7CF8170336715D2B21A68B81D",
+          "newSHA256": "D83D68489E090C0E8F27294E078FC7A19AFDCB864A906C8755E684AF494F7D1A"
+        },
+        {
+          "name": "window.txDeleteAttempt",
+          "originalStart": 4360339,
+          "originalEnd": 4360506,
+          "outputStart": 4353979,
+          "oldSHA256": "7C73ECD6AFAE72B818146415348B5590ADE01C4861FA16A9CD57AE9B6F4FDFB0",
+          "newSHA256": "46BCFC1202A1C8449A522328CE5B7A0599C1DD6204C5BAC827D71ADFEDA14E8B"
+        },
+        {
+          "name": "txViewLive",
+          "originalStart": 4360507,
+          "originalEnd": 4361854,
+          "outputStart": 4354153,
+          "oldSHA256": "8189B71CC3DB502EC1432499446EAD551E9ADC9DB98429BEFE7C93A0791305F4",
+          "newSHA256": "1318B947C37749F61ED9D3F2FCE34C3DA182E24A03AD3C8E89770AF85C849BF1"
+        },
+        {
+          "name": "window.teacherAllowExamReopen",
+          "originalStart": 4364261,
+          "originalEnd": 4365482,
+          "outputStart": 4356632,
+          "oldSHA256": "C24FFA0CF7CC700C3466ABB78334D23BD7EF7E8B04EF3CC4516F05BE94C92A94",
+          "newSHA256": "D0028519E6E2654430B90D31ED50EB9DE206CBB163384B8883455BB354BF1625"
+        },
+        {
+          "name": "window.teacherCancelExamReopen",
+          "originalStart": 4365483,
+          "originalEnd": 4366186,
+          "outputStart": 4357866,
+          "oldSHA256": "3CC378B816D49C2245B22F653B21E8F5FCC57936C50B2FF12C984909C860A008",
+          "newSHA256": "8B26310130F4C407F79B79F6BE080FCA326D5FC90F5FA025FD61F242426D016F"
+        },
+        {
+          "name": "window.txRecoverDeviceBackup",
+          "originalStart": 4366188,
+          "originalEnd": 4366910,
+          "outputStart": 4358583,
+          "oldSHA256": "797486C2943A57B1D66F6A3B504C9F753A1DE57A02E7A2D315E1567A2FC420B2",
+          "newSHA256": "72233DF0B39BF0CF8E17FDF12230A016AA75B73C692865BCB32F92E18306CA35"
+        },
+        {
+          "name": "window.txGrade",
+          "originalStart": 4369635,
+          "originalEnd": 4377612,
+          "outputStart": 4362109,
+          "oldSHA256": "7068E1AB5A4B01D93C1061584C3CA28173E5EAB9E1729B4A229394A54C1D092B",
+          "newSHA256": "714CAE2508DFBF3EBEBC1BC7CD8F5C0EF17141F068763B63F2CFBBC83AC35DCF"
+        },
+        {
+          "name": "window.txPublishGrade",
+          "originalStart": 4377612,
+          "originalEnd": 4378580,
+          "outputStart": 4370116,
+          "oldSHA256": "5C7F8D6E170A388A3666105FD1C4482C657700C9F385C9F745C590D3189A2C5F",
+          "newSHA256": "2CD81E404DD3B2C63224B72CFDA9B5AB49505348FFF65DAACF75F62369DC5FA3"
+        },
+        {
+          "name": "Loopback synthetic exam fixture hook",
+          "originalStart": 4437008,
+          "originalEnd": 4437008,
+          "outputStart": 4429524,
+          "oldSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "newSHA256": "76E024F2ED186A9B5CCB3832DFF4B6007D4F1D59AC8B76A477E232B47AC744B6"
+        }
+      ]
+    },
+    "student": {
+      "originalHTML": "C6036D94F163FD71EB37F1EEBEB64FE7F77A09E4A433F04DE838D8EC60F28E49",
+      "stagingHTML": "225016106E8BA40AF46FD927FE1DEDD1924FE73DE9D61C7AE2E6BF770654662C",
+      "outsideAllowedRangesIdentical": true,
+      "unchangedNamedUnits": 224,
+      "protectedNonExamUnits": 220,
+      "allOtherFilesUnchanged": [
+        {
+          "file": "campus-config.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-android-runtime.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-android-vision-worker.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-answer-sheet-frame.html",
+          "unchanged": true
+        },
+        {
+          "file": "exam-answer-sheet-frame.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-answer-sheet.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-answer-store.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-authoring.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-diagram.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-language.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-release.json",
+          "unchanged": true
+        },
+        {
+          "file": "exam-reports.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\DejaVuSans-Bold.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\DejaVuSans.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\LICENSE",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\NotoSansDevanagari-OFL.txt",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\NotoSansDevanagari.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\NotoSansOriya-OFL.txt",
+          "unchanged": true
+        },
+        {
+          "file": "exam-fonts\\NotoSansOriya.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "exam-vision\\face_landmarker.task",
+          "unchanged": true
+        },
+        {
+          "file": "exam-vision\\vision_bundle.js",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\DejaVuSans-Bold.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\DejaVuSans.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LiberationSans-Bold.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LiberationSans-Regular.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LICENSE",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\LICENSE-Liberation.txt",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansDevanagari-OFL.txt",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansDevanagari.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansOriya-OFL.txt",
+          "unchanged": true
+        },
+        {
+          "file": "fonts\\NotoSansOriya.ttf",
+          "unchanged": true
+        },
+        {
+          "file": "icons\\apple-touch-icon.png",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\html2pdf.bundle.min.js",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\jspdf.umd.min.js",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\qr.js",
+          "unchanged": true
+        },
+        {
+          "file": "vendor\\QRCODE-LICENSE",
+          "unchanged": true
+        },
+        {
+          "file": "exam-vision\\wasm\\vision_wasm_internal.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-vision\\wasm\\vision_wasm_internal.wasm",
+          "unchanged": true
+        },
+        {
+          "file": "exam-vision\\wasm\\vision_wasm_nosimd_internal.js",
+          "unchanged": true
+        },
+        {
+          "file": "exam-vision\\wasm\\vision_wasm_nosimd_internal.wasm",
+          "unchanged": true
+        }
+      ],
+      "edits": [
+        {
+          "name": "Live Exam API integration import",
+          "originalStart": 217272,
+          "originalEnd": 217272,
+          "outputStart": 217272,
+          "oldSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "newSHA256": "9064A9F2B48DE681DEDC9FE20FC06AD309B4968CEF93100DA1D409F7EDE6E740"
+        },
+        {
+          "name": "sxStamp",
+          "originalStart": 565653,
+          "originalEnd": 565689,
+          "outputStart": 565829,
+          "oldSHA256": "D6DCCC09048B115494B7FCE993E2F14DD1B036A5DCA4AB46DBF97AD411989217",
+          "newSHA256": "16961FC9EF456F845EE05178E2EC32CC3021AC894EA619E4E108BF4436821C02"
+        },
+        {
+          "name": "sxStart",
+          "originalStart": 567458,
+          "originalEnd": 568515,
+          "outputStart": 567637,
+          "oldSHA256": "6222CC7EB369983561704BEC303F4B08604DF909FB80823C424AD5C608D667E3",
+          "newSHA256": "007D3A822EB6F602D00D7DC9ECB9B07AB1D7899E37B9348D504F78D116276C9E"
+        },
+        {
+          "name": "window.sxDownloadAnswerSheet",
+          "originalStart": 570726,
+          "originalEnd": 571286,
+          "outputStart": 570944,
+          "oldSHA256": "65D6FC98D7AD29FBBAAECA30A99AD4DB8609364F1EEF962D38A6331AFF414830",
+          "newSHA256": "09E9C69F8597CD37CAA2D910FC9852DD8E879356CC7DB4BC7E78FC9579438F60"
+        },
+        {
+          "name": "sxSetupAnswerStore",
+          "originalStart": 571931,
+          "originalEnd": 572930,
+          "outputStart": 572155,
+          "oldSHA256": "006B971D2B104B23524606E0D05D31B49A87ED22A7155AE4234C945AD91C65AC",
+          "newSHA256": "49753C11681F398633F8356638C3803F14DDEB7E5576037E0C303273CBFB7D5F"
+        },
+        {
+          "name": "sxAnswerState",
+          "originalStart": 572931,
+          "originalEnd": 574020,
+          "outputStart": 573167,
+          "oldSHA256": "24A9037734A36BEFD2432C5280713D1FAD3D1FB3FB7365333B66B20176742E54",
+          "newSHA256": "699F9715045910CEC6D19AC98585124243984F8CC86A783EFA81DE60E4EC34BE"
+        },
+        {
+          "name": "sxCapturePhoto",
+          "originalStart": 591551,
+          "originalEnd": 592027,
+          "outputStart": 591835,
+          "oldSHA256": "3290AEC6BFA8EF09876E163CB6282018058F838FCF45B016B20DB1BDC3C92296",
+          "newSHA256": "F379017EFFE59E754F2DFA56B246E559D22D50DFAF29AA3A2999C2E799AE1481"
+        },
+        {
+          "name": "sxBegin",
+          "originalStart": 594846,
+          "originalEnd": 601180,
+          "outputStart": 595143,
+          "oldSHA256": "83E789F41039ECA04A48DD22C34B6C7927F6796DDC2714EE16C30B4BDF8341E4",
+          "newSHA256": "D4E6788F5EDD8BE9359468AE1C4E91FBEC02FBE205B66BCF9B401CDCBA5B4B35"
+        },
+        {
+          "name": "sxAudit",
+          "originalStart": 604920,
+          "originalEnd": 605282,
+          "outputStart": 605169,
+          "oldSHA256": "0B0594209DDCE54E8361FCC9F371F287DB918C72F962920BEE48DDB559A40431",
+          "newSHA256": "22CB13791E6B7552338A61ABDC84A8089FD0D9D77BE0692CE62A8663E44BDC5B"
+        },
+        {
+          "name": "sxWarn",
+          "originalStart": 605756,
+          "originalEnd": 606112,
+          "outputStart": 606011,
+          "oldSHA256": "3694879332947C8886E106071B7BBDDE3EDEF1FE74C25D6BC3E2C0FEE3F4A3BD",
+          "newSHA256": "87D09876BB59DD0912EEF15FDF23F26ED8883E0787EC0A3ABDD9F254947E9330"
+        },
+        {
+          "name": "sxLookWarning",
+          "originalStart": 606113,
+          "originalEnd": 607826,
+          "outputStart": 606377,
+          "oldSHA256": "2BC590DD9C8FCB2FEE846913B04F57E72D7D74F2FB052058E225A61D06B65CA4",
+          "newSHA256": "75A9C4894FDF408575047AF29A28E471904940EAAB411054F846B0A7A7B1D61F"
+        },
+        {
+          "name": "sxAutoBlock",
+          "originalStart": 607827,
+          "originalEnd": 609538,
+          "outputStart": 608097,
+          "oldSHA256": "F473B9E75AD5A994AF0B95569F996E654CC230BC98B27E7967980DD580DC1070",
+          "newSHA256": "DFD1A0700D8D521E0002E3EF44E3290648FE70B9BC30607A38C5DEE042E62C65"
+        },
+        {
+          "name": "sxBindAttempt",
+          "originalStart": 609540,
+          "originalEnd": 611615,
+          "outputStart": 609816,
+          "oldSHA256": "82A5CE1E4E973E23982B01133BF40ABFB9D0CB3496573130DE40BC44225C1B5B",
+          "newSHA256": "A81E7E3894A9D572711F6D0E6AC7E5E7F4878C08296DC316A5E7EF2FE70D53A0"
+        },
+        {
+          "name": "sxHeartbeat",
+          "originalStart": 611616,
+          "originalEnd": 612017,
+          "outputStart": 611898,
+          "oldSHA256": "9DEC27A0458AEDB505B3DE2E9206D4106406E82AF88A45D9B49546767550C999",
+          "newSHA256": "7851023E7526A4C018D8FDB5B1B8A33449CF1B8845729982B31DD3BD68D3150D"
+        },
+        {
+          "name": "sxSignals",
+          "originalStart": 619328,
+          "originalEnd": 619995,
+          "outputStart": 619888,
+          "oldSHA256": "22817D462DDA59C14ADE0EF17A5F28279A08730D3F278EAA7FC044FB9A21460D",
+          "newSHA256": "B070464BC56EC3A681C43CAFFC20CC56066C88D29D5229B3963A69F2E2048DC8"
+        },
+        {
+          "name": "sxAnswerSignal",
+          "originalStart": 619996,
+          "originalEnd": 621097,
+          "outputStart": 619971,
+          "oldSHA256": "7B5B76BDA05C76C52C043F9E332394DB2F22109D0EE7F64C57E26C364AA97F88",
+          "newSHA256": "804901AF8513FAA6D2E0198EE5D5E737EAE79FE12A89AD991B87617ACB93F89D"
+        },
+        {
+          "name": "Loopback synthetic exam fixture hook",
+          "originalStart": 639737,
+          "originalEnd": 639737,
+          "outputStart": 638689,
+          "oldSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "newSHA256": "D6BCBA318D65D79AE3E54574A78BEBFE321832463C77809165F6D1C4FF2AFEB3"
+        }
+      ]
+    }
+  }
+}

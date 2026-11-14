@@ -13,6 +13,10 @@
       "pass": true
     },
     {
+      "file": "backend/monitor.js",
+      "pass": true
+    },
+    {
       "file": "backend/projection.js",
       "pass": true
     },
@@ -29,7 +33,15 @@
       "pass": true
     },
     {
+      "file": "packages/schedule.js",
+      "pass": true
+    },
+    {
       "file": "public/shared/firebase-auth-adapter.js",
+      "pass": true
+    },
+    {
+      "file": "public/shared/schedule.js",
       "pass": true
     },
     {
@@ -38,6 +50,86 @@
     },
     {
       "file": "public/shared/store.js",
+      "pass": true
+    },
+    {
+      "file": "public/shared/warning-monitor.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/campus-config.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-android-runtime.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-android-vision-worker.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-answer-sheet-frame.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-answer-sheet.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-answer-store.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-authoring.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-diagram.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-language.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-reports.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/student/exam-transport-config.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/campus-config.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-answer-store.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-authoring.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-diagram.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-question-bank.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-recovery.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-reports.js",
+      "pass": true
+    },
+    {
+      "file": "public/staging/teacher/exam-transport-config.js",
       "pass": true
     },
     {
@@ -129,6 +221,34 @@
       "pass": true
     },
     {
+      "file": "staging-tools/browser-fixture.mjs",
+      "pass": true
+    },
+    {
+      "file": "staging-tools/build-integrated.mjs",
+      "pass": true
+    },
+    {
+      "file": "staging-tools/finalize-labels.mjs",
+      "pass": true
+    },
+    {
+      "file": "staging-tools/inspect-layout.mjs",
+      "pass": true
+    },
+    {
+      "file": "staging-tools/inspect-order.mjs",
+      "pass": true
+    },
+    {
+      "file": "staging-tools/prepare-import-test.mjs",
+      "pass": true
+    },
+    {
+      "file": "staging-tools/prepare-pdf-test.mjs",
+      "pass": true
+    },
+    {
       "file": "tests/browser-smoke.mjs",
       "pass": true
     },
@@ -137,7 +257,27 @@
       "pass": true
     },
     {
+      "file": "tests/integrated-import.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/integrated-pdfs.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/integrated-ui.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/integrated-workflow.mjs",
+      "pass": true
+    },
+    {
       "file": "tests/local-runtime.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/monitor.test.mjs",
       "pass": true
     },
     {
@@ -146,6 +286,14 @@
     },
     {
       "file": "tests/pdf-render.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/protected-boundaries.test.mjs",
+      "pass": true
+    },
+    {
+      "file": "tests/schedule.test.mjs",
       "pass": true
     },
     {
@@ -166,6 +314,10 @@
     },
     {
       "file": "tools/local-server.mjs",
+      "pass": true
+    },
+    {
+      "file": "tools/seed-monitor.mjs",
       "pass": true
     },
     {

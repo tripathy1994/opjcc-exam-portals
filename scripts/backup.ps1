@@ -14,7 +14,7 @@ if($LASTEXITCODE -ne 0){throw 'Git history bundle failed'}
 if($LASTEXITCODE -ne 0){throw 'Git bundle verification failed'}
 $entries=@(Get-ChildItem -LiteralPath $projectRoot -Recurse -File -Force | Where-Object {
   $relative=$_.FullName.Substring($projectRoot.Length+1)
-  $relative -notmatch '^(?:\.git|\.local|\.wrangler|node_modules|backups)(?:\\|$)' -and $relative -notmatch '(?:^|\\)(?:\.env|\.dev\.vars|account-approval\.local\.json|wrangler\.verified\.local\.json)$' -and $_.Extension -notin @('.pem','.key','.p12','.pfx')
+  $relative -ne 'DELIVERY_RECORD.json' -and $relative -notmatch '^(?:\.git|\.local|\.wrangler|node_modules|backups)(?:\\|$)' -and $relative -notmatch '(?:^|\\)(?:\.env|\.dev\.vars|account-approval\.local\.json|wrangler\.verified\.local\.json)$' -and $_.Extension -notin @('.pem','.key','.p12','.pfx')
 } | ForEach-Object {[pscustomobject]@{Source=$_.FullName;Name=$_.FullName.Substring($projectRoot.Length+1).Replace('\','/')}})
 $entries += [pscustomobject]@{Source=$bundle;Name='GIT_HISTORY.bundle'}
 $manifest=@{}
@@ -34,7 +34,8 @@ if($verified -ne $entries.Count){throw 'ZIP entry count mismatch'}
 $hash=(Get-FileHash -LiteralPath $zipPath -Algorithm SHA256).Hash
 $restore=Join-Path $backupDir 'RESTORE_SMOKE'
 [IO.Compression.ZipFile]::ExtractToDirectory($zipPath,$restore)
-$testOutput=& node --test (Join-Path $restore 'tests\core.test.mjs') 2>&1
+$testFiles=@(Get-ChildItem -LiteralPath (Join-Path $restore 'tests') -Filter '*.test.mjs' | ForEach-Object {$_.FullName})
+$testOutput=& node --test @testFiles 2>&1
 $testExit=$LASTEXITCODE
 $testOutput | Set-Content -LiteralPath (Join-Path $backupDir 'RESTORE_TESTS.txt') -Encoding utf8
 $result=[ordered]@{Zip=$zipPath;SHA256=$hash;FilesVerified=$verified;ManifestIncluded=$true;GitCommit=(& git -C $projectRoot rev-parse HEAD);ZipReadback='PASS';GitBundle='PASS';RestoreCoreTests= $(if($testExit -eq 0){'PASS'}else{'FAIL'});Excluded='.git objects, .local database, node_modules, credentials, account approval/session files'}

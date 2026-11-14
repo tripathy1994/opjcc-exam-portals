@@ -1,0 +1,1 @@
+import fs from'node:fs';const file=new URL('../public/shared/warning-monitor.js',import.meta.url);let text=fs.readFileSync(file,'utf8');text=text.replace("['Warnings',`${r.warningCount}/5`]","['Warnings',`${r.aiWarningCount}/5 AI · ${r.warningCount} total`]");fs.writeFileSync(file,text);

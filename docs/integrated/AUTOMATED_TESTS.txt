@@ -1,0 +1,47 @@
+✔ locked bank 30 and 50 counts, all four types and languages (6.1953ms)
+✔ locked select 30 from 50, edit/delete/reorder and duplicates (0.8265ms)
+✔ locked 30 marks configuration: 20 MCQ x1 + 5 Fill x2 (0.4848ms)
+✔ published paper and private key isolation (34.2126ms)
+✔ admission, immutable order/deadline and duplicate attempt denial (15.9692ms)
+✔ ineligible and forged student attempts denied (13.6291ms)
+✔ initial answer plus 2 changes, fourth value rejected; canonical option enforced (17.189ms)
+✔ operation retry is idempotent in preserved answer contract (11.6546ms)
+✔ CAS concurrent answer operations do not silently overwrite (12.9492ms)
+✔ submission is confirmed, answers remain locked, own result unpublished (10.7156ms)
+✔ Review V2 half marks, separate publication, PDF DTO and disabled outbox (19.2509ms)
+✔ stale review, quarter marks and forged publication rejected (11.8822ms)
+✔ Teacher hold/block/resume, student cannot unblock or clear warnings (13.7783ms)
+✔ projection fixture checksum, duplicate receipt and production destination gate (2.8463ms)
+✔ master minimization excludes Attendance and denies production source (1.3484ms)
+✔ HTTP authentication/CORS and production mock-token rejection (50.9021ms)
+✔ 30+20 students and 50 concurrent synthetic start/save/submit (659.006ms)
+✔ server blocks fifth camera warning and retains immutable command/warning history (15.5878ms)
+✔ deadline rejects new answers but permits locking previously confirmed answers (11.1853ms)
+✔ heartbeat coalescing reduces writes; changes and batch watches remain authorized (14.3934ms)
+✔ unpublication emits a disabled, versioned withdrawal event (13.7007ms)
+✔ valid signed Firebase-shaped JWT uses trusted role; bad signature/audience/expiry denied (143.1234ms)
+✔ explicit Teacher reopen preserves answers and grants only one bounded deadline (12.2904ms)
+✔ original audited recovery contract atomically clears review, preserves deadline and answer limits (18.9352ms)
+✔ reviewed four-language variants preserve all question types, IDs, marks and True/False tokens (14.0167ms)
+✔ monitor status classification is based on server attempt and last-seen state (1.7915ms)
+✔ authorized monitoring returns 30 + 20 real fixture rows and no keys/answers/photos (523.4916ms)
+✔ Student and other Teacher cannot read this monitor or issue commands (350.5285ms)
+✔ Teacher command receipts prevent duplicate actions; stale state is rejected (315.6498ms)
+✔ Warn/Hold/Block/Clear/Resume are real audited server actions; clear does not unblock (473.4781ms)
+✔ device sync/AI metadata is bounded and cannot forge successful server save (254.9308ms)
+✔ new backend exact-origin CORS requires authentication and rejects wildcard configuration (249.1103ms)
+✔ teacher: exact protected bytes outside independently inspected Live Exam edit ranges (60.126ms)
+✔ teacher: non-exam sections and all existing helper/assets match locked source (2559.8142ms)
+✔ student: exact protected bytes outside independently inspected Live Exam edit ranges (7.1415ms)
+✔ student: non-exam sections and all existing helper/assets match locked source (413.4941ms)
+✔ Student camera/face/fullscreen detection algorithms remain exact (306.1761ms)
+✔ new Live Exam styles are scoped and deployment is backend-only (1.9807ms)
+✔ legacy endAt-only extension derives matching IST milliseconds only for exams (7.7473ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3681.6344

@@ -13,5 +13,6 @@ CREATE TABLE IF NOT EXISTS sync_receipts(event_id TEXT PRIMARY KEY, checksum TEX
 CREATE TABLE IF NOT EXISTS paper_versions(exam_id TEXT NOT NULL, content_hash TEXT NOT NULL, public_paper TEXT NOT NULL, at_ms INTEGER NOT NULL, PRIMARY KEY(exam_id,content_hash));
 CREATE TABLE IF NOT EXISTS command_history(id TEXT PRIMARY KEY, attempt_id TEXT NOT NULL, actor TEXT NOT NULL, detail TEXT NOT NULL, at_ms INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS warning_history(id TEXT PRIMARY KEY, attempt_id TEXT NOT NULL, actor TEXT NOT NULL, detail TEXT NOT NULL, at_ms INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS teacher_command_receipts(id TEXT PRIMARY KEY, actor TEXT NOT NULL, attempt_id TEXT NOT NULL, fingerprint TEXT NOT NULL, result TEXT NOT NULL, at_ms INTEGER NOT NULL);
 -- Question banks, immutable paper versions, eligibility, attempts, warnings, commands,
 -- reviews and minimal master snapshots are versioned documents. No binary media in D1.
