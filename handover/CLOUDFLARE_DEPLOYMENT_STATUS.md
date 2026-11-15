@@ -1,0 +1,17 @@
+# Cloudflare deployment status — 15 November 2026
+
+Status: AUTHORIZED CLI IDENTITY VERIFIED; DEPLOYMENT BLOCKED before resource modification.
+
+Fresh supported wrangler whoami: version 4.131.2, OAuth identity himansu.iot@gmail.com, account 90e713649e8ec426a9d05511cc636235. User dashboard confirmed subdomain himansu-iot.workers.dev. Protected OLD account b7023d04cccdc2e88b1456963347afde must NEVER be used. No token values were output/saved by the run.
+
+Proposed Worker opjcc-exam-api: NOT CREATED/DEPLOYED. URL: none verified. Proposed D1 opjcc-exam-db: NOT CREATED. UUID: none. Remote migration: NOT RUN. No resources/name availability checked in this session. Cloud API/D1 functional/security tests: NOT RUN. Deployment request/CPU/rows/storage usage: NOT MEASURED (identity request is not exam usage).
+
+Precise blocker: actual Free-plan/billing status unverified. A proposed read-only custom official API request for account settings/subscriptions/resources was rejected by automatic approval review BEFORE execution because it would read and extract the Wrangler OAuth token outside the supported CLI flow. No credential file was read by that command, no API request occurred, no indirect retry was attempted. Do not recreate this command or work around the rejection. Existing Computer Use URL-verification restriction remains; no browser tool switching/automation was used.
+
+Necessary user action: personally verify Workers & Pages plan and Billing subscriptions in the NEW account dashboard; provide a non-secret screenshot/confirmation identifying exact account ID and Workers Free status (no payment/account secrets). Establish a supported connection for any further programmatic billing inspection if needed. Do not request token disclosure. Normal supported Wrangler identity/account workflows are available; never falsely mark the browser restriction resolved because CLI OAuth works.
+
+Existing scripts/deploy.ps1 still requires account-approval.local.json.browserSafetyBlockResolved and integrationAcceptanceComplete and local Wrangler. None was falsified. A future approved CLI-only route needs an explicitly reviewed gate update distinguishing supported CLI authorization from an unresolved browser restriction; this is not permission to bypass the gate. Do not mark production integration complete simply to deploy a fail-closed staging backend. Root wrangler.jsonc still has an unresolved D1 ID, no account override/assets binding, ALLOWED_ORIGINS [], INTEGRATIONS_ENABLED false. AI origin/private media/master/projection remain disabled.
+
+After gates genuinely pass: review/pin Wrangler, verify exact new account before each remote step, check no resource-name collision, dry-run bundle, D1 local migration, create only new DB, record UUID in ignored verified config with exact account_id, review/apply additive remote migrations, deploy backend only, capture version/URL, verify unauthorized access denied, use legitimate isolated identities for read/write/CAS/submission/review/publication, measure quotas. Never inject local mocks into the deployed Worker or disable authentication. Existing tests use local-only verifier; production Firebase tokens require approved D1 principals and there are no approved real-student snapshots.
+
+Official references: https://developers.cloudflare.com/workers/get-started/guide/ ; https://developers.cloudflare.com/d1/wrangler-commands/ ; https://developers.cloudflare.com/workers/platform/pricing/ ; https://developers.cloudflare.com/d1/platform/pricing/
